@@ -127,6 +127,11 @@ function doGet(e) {
         }
         return jsonResponse(slideData);
 
+      case 'addSlides26':
+        // シラバス26用スライドを追加
+        const addResult = addSyllabus26Slides();
+        return jsonResponse(addResult);
+
       default:
         return jsonResponse({
           error: 'Invalid action',
@@ -427,6 +432,18 @@ function testSlides() {
   console.log(JSON.stringify(result, null, 2));
 }
 
+/**
+ * シラバス26スライド追加のテスト
+ * GASエディタから直接実行可能
+ */
+function testAddSlides26() {
+  const result = addSyllabus26Slides();
+  console.log(JSON.stringify(result, null, 2));
+  if (result.success) {
+    console.log('追加されたスライドURL: ' + result.firstNewSlide);
+  }
+}
+
 // ========================================
 // フォーム・スライド アクセス用関数
 // ========================================
@@ -550,6 +567,102 @@ function getSlidesApi(slideId) {
   } catch (e) {
     console.log('Slides access error: ' + e.message);
     return null;
+  }
+}
+
+/**
+ * シラバス26用スライドを追加
+ * 既存スライドの最後に2026年度用のタイトル・講義一覧・各回スライドを追加
+ */
+function addSyllabus26Slides() {
+  const SLIDE_ID = '115gBQJ9xHQ0_TPVZEtjtfhhVxCbP528rVOpTl-WddC0';
+
+  // 2026年度講義データ
+  const SYLLABUS26 = {
+    year: '2026',
+    title: '[DHGSVR26] テクノロジー特論D（人工現実）',
+    schedule: [
+      { date: '11/27', num: 1, title: '人工現実概論', desc: 'AR/VR/メタバース/生成AIの技術史を俯瞰し、「頭の中の現実を作り出す能力」について講義する。' },
+      { date: '12/4', num: 2, title: '生成AIの技術と表現', desc: '画像生成AIの歴史と基礎技術について講義し、自己紹介用の画像素材を制作する。' },
+      { date: '12/11', num: 3, title: 'Webポートフォリオ制作', desc: 'VibeCoding時代のWebサイト制作をGitHubで実装体験する。' },
+      { date: '12/18', num: 4, title: 'コーディングエージェント入門', desc: 'AIを活用したコーディング手法について講義し、対話型開発の基礎を体験する。' },
+      { date: '1/8', num: 5, title: 'インタラクティブUX設計', desc: 'ユーザー体験設計とFTUEの言語化を通して体験設計を経験する。' },
+      { date: '1/15', num: 6, title: 'アバターキャラクター設計', desc: 'VTuber/PNGTuber/AITuberの表現技術を調査し、オリジナルキャラクターを設計する。' },
+      { date: '1/22', num: 7, title: 'VTuberを発信する', desc: '動画制作とSNS発信技術について講義し、アバター動画を制作して発信する。' },
+      { date: '1/29', num: 8, title: '超（meta）メタバース', desc: '本講義で学んだ技術と制作物を振り返り、社会実装について総合的にまとめる。' }
+    ]
+  };
+
+  try {
+    const presentation = SlidesApp.openById(SLIDE_ID);
+    const slides = presentation.getSlides();
+    const addedSlides = [];
+
+    // 1. セパレータスライド（年度区切り）
+    const sepSlide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+    const sepTitle = sepSlide.insertTextBox('═══════════════════════════════════\n\n' +
+      SYLLABUS26.title + '\n\n═══════════════════════════════════', 50, 150, 620, 200);
+    sepTitle.getText().getTextStyle().setFontSize(24).setBold(true).setForegroundColor('#1a73e8');
+    addedSlides.push({ type: 'separator', slideId: sepSlide.getObjectId() });
+
+    // 2. 講義一覧スライド
+    const listSlide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+    const listTitle = listSlide.insertTextBox(SYLLABUS26.title, 50, 30, 620, 50);
+    listTitle.getText().getTextStyle().setFontSize(20).setBold(true);
+
+    let scheduleText = '';
+    SYLLABUS26.schedule.forEach(item => {
+      scheduleText += `[${item.date}] 第${item.num}回 ${item.title}\n`;
+    });
+    const listBody = listSlide.insertTextBox(scheduleText, 50, 100, 620, 350);
+    listBody.getText().getTextStyle().setFontSize(16);
+    addedSlides.push({ type: 'schedule', slideId: listSlide.getObjectId() });
+
+    // 3. 各回タイトルスライド
+    SYLLABUS26.schedule.forEach(item => {
+      const slide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+
+      // 回数・日付
+      const header = slide.insertTextBox(
+        `第${item.num}回\n2026年${item.date.includes('/') ? item.date.replace('/', '月') + '日' : item.date}（金）\n8限 21:00～22:30`,
+        50, 30, 300, 100
+      );
+      header.getText().getTextStyle().setFontSize(14);
+
+      // タイトル
+      const title = slide.insertTextBox(item.title, 50, 150, 620, 80);
+      title.getText().getTextStyle().setFontSize(32).setBold(true);
+
+      // 説明
+      const desc = slide.insertTextBox(item.desc, 50, 250, 620, 150);
+      desc.getText().getTextStyle().setFontSize(18);
+
+      addedSlides.push({
+        type: 'lecture',
+        num: item.num,
+        title: item.title,
+        slideId: slide.getObjectId()
+      });
+    });
+
+    // 結果を返す
+    const newSlideCount = presentation.getSlides().length;
+    const firstNewSlideIndex = slides.length + 1;
+
+    return {
+      success: true,
+      message: `${addedSlides.length}枚のスライドを追加しました`,
+      presentationUrl: presentation.getUrl(),
+      firstNewSlide: `${presentation.getUrl()}#slide=id.${addedSlides[0].slideId}`,
+      addedSlides: addedSlides,
+      totalSlides: newSlideCount
+    };
+
+  } catch (e) {
+    return {
+      success: false,
+      error: e.message
+    };
   }
 }
 

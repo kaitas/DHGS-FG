@@ -1,0 +1,1397 @@
+{
+  "title": "DHGSVR25-講義準備",
+  "id": "115gBQJ9xHQ0_TPVZEtjtfhhVxCbP528rVOpTl-WddC0",
+  "url": "https://docs.google.com/open?id=115gBQJ9xHQ0_TPVZEtjtfhhVxCbP528rVOpTl-WddC0",
+  "slideCount": 175,
+  "slides": [
+    {
+      "slideNumber": 1,
+      "slideId": "g32161509555_0_650",
+      "textContent": [
+        "テクノロジー特論D\u000b(人工現実)",
+        "金曜日  8限　21:00 ～ 22:30\n大学院 特任教授／AICU Inc. CEO\n白井暁彦  Akihiko SHIRAI, Ph.D\nX@o_ob\n学内メール: akihiko.shirai@dhw.ac.jp",
+        "[人工現実2025\u000b]master編集しないでね"
+      ]
+    },
+    {
+      "slideNumber": 2,
+      "slideId": "g32161509555_0_1285",
+      "textContent": [
+        "[DHGSVR25] テクノロジー特論D（人工現実）",
+        "[11/28]第1回 人工現実概論\n[12/5] 第2回 VR5.0: 令和のメタバースと人工現実\n[12/12]第3回 Webポートフォリオの制作\n[12/19]第4回 クリエイティブAI\n[12/26]第5回 VTuberを設計する\n[1/9]  第6回 VTuberを発信する\n[1/16] 第7回 「人工現実」をつくる\n[1/23] 第8回 超（meta）メタバース"
+      ]
+    },
+    {
+      "slideNumber": 3,
+      "slideId": "g32161509555_0_660",
+      "textContent": [
+        "第1回\u000b2025年11月28日（金）\u000b 8限　21:00 ～ 22:30",
+        "人工現実概論\n講義概要と、人工現実の現在過去未来を俯瞰する。"
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "slideId": "g32161509555_0_655",
+      "textContent": [
+        "白井暁彦（しらい あきひこ）\u000bテクノロジー特論D（人工現実）担当\u000b　VRエンタテイメント学の研究者。エンタテインメントシステム、工学、CG、\u000bVR/AR/MR, AI、キャラクターデザイン、インタラクション、ソーシャルメディア、\u000b人間工学、評価において長年国際的な活動を経験。\n　1996年 キヤノン(株)入社、キヤノングループの英国ゲームエンジン開発企業Criterionを経て、2001年 東京工業大学総合理工学研究科博士後期課程に復学、2004年に『床面提示型触覚エンタテイメントシステムの提案と開発』で博士(工学)取得。(財)NHK‐ES、フランスLavalでのVRによる地域振興、日本科学未来館科学コミュニケーターを経て、2010年より神奈川工科大学情報学部情報メディア学科准教授。専門はVRエンタテイメントシステム、メディアアートの工学教育。\nフランスで21年開催されている世界最大のVRフェスティバル「Laval Virtual」の国際デモ部門ReVolutionの初代チェア。1993年より続く国際学生対抗VRコンテスト「IVRC」の実行委員・審査員。\u000b著書に『WiiRemoteプログラミング』、『白井博士の未来のゲームデザイン ―エンターテインメントシステムの科学―』など。2018 年よりGREE VR Studio Lab Director，グリーグループでXRライブエンタメを推進するREALITY株式会社でXRエンタテインメントやメタバース産業の中で世界をリードし，未来を開拓する R&D を担当している。"
+      ]
+    },
+    {
+      "slideNumber": 5,
+      "slideId": "g32161509555_0_665",
+      "textContent": [
+        "講義日程",
+        "第1回　2025年11月28日（金）8限　21:00 ～\n第2回　2025年12月5日（金） 8限　21:00 ～\n第3回　2025年12月12日（金）8限　21:00 ～\n第4回　2025年12月19日（金） 8限　21:00 ～\n第5回　2025年12月26日（金）8限　21:00 ～\n第6回　2026年1月9日（金） 8限　21:00 ～\n第7回　2026年1月16日（金） 8限　21:00 ～\n第8回　2026年1月23日（金） 8限　21:00 ～"
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "slideId": "g32161509555_0_670",
+      "textContent": [
+        "[11/29] 第1講 自己紹介スライドをつくる",
+        "デジタルコンテンツマネジメント（DCM）修士とは\nVR技術者認定講習会・試験"
+      ]
+    },
+    {
+      "slideNumber": 7,
+      "slideId": "g32161509555_0_675",
+      "textContent": [
+        "シラバスより"
+      ]
+    },
+    {
+      "slideNumber": 8,
+      "slideId": "g32161509555_0_681",
+      "textContent": [
+        "Shirai Akihiko"
+      ]
+    },
+    {
+      "slideNumber": 9,
+      "slideId": "g32161509555_0_687",
+      "textContent": [
+        "白井暁彦（しらい あきひこ）\u000bテクノロジー特論D（人工現実）担当\u000b　VRエンタテイメント学の研究者。エンタテインメントシステム、工学、CG、\u000bVR/AR/MR, AI、キャラクターデザイン、インタラクション、ソーシャルメディア、\u000b人間工学、評価において長年国際的な活動を経験。\n　1996年 キヤノン(株)入社、キヤノングループの英国ゲームエンジン開発企業Criterionを経て、2001年 東京工業大学総合理工学研究科博士後期課程に復学、2004年に『床面提示型触覚エンタテイメントシステムの提案と開発』で博士(工学)取得。(財)NHK‐ES、フランスLavalでのVRによる地域振興、日本科学未来館科学コミュニケーターを経て、2010年より神奈川工科大学情報学部情報メディア学科准教授。専門はVRエンタテイメントシステム、メディアアートの工学教育。\nフランスで21年開催されている世界最大のVRフェスティバル「Laval Virtual」の国際デモ部門ReVolutionの初代チェア。1993年より続く国際学生対抗VRコンテスト「IVRC」の実行委員・審査員。\u000b著書に『WiiRemoteプログラミング』、『白井博士の未来のゲームデザイン ―エンターテインメントシステムの科学―』など。2018 年よりGREE VR Studio Lab Director，グリーグループでXRライブエンタメを推進するREALITY株式会社でXRエンタテインメントやメタバース産業の中で世界をリードし，未来を開拓する R&D を担当している。"
+      ]
+    },
+    {
+      "slideNumber": 10,
+      "slideId": "g32161509555_0_692",
+      "textContent": [
+        "Q1: 最終課題を意識してスライドを作ってみる",
+        "メタバース時代における挑戦やキャリアデザインについて、総合的なまとめを行う。特に「人工現実(AR)」でどのような人工的な現実をどのような場に作り出していくのか、ARでどのような現実の不可能を可能にしていくのか、提案力や社会実装力を深めていく",
+        "特别是，我们将通过幻灯片展示什么样的人工现实及其价值将用在什么地方，以及“人工现实”的历史视角、提案能力和社会实施能力。",
+        "Provide a comprehensive summary of challenges and career design in the age of metaverse. In particular, what kind of artificial reality will be created in what kind of place in \"artificial reality(AR)\", what kind of impossible reality will be made possible by VR, and deepen the ability to make proposals and implement them in society."
+      ]
+    },
+    {
+      "slideNumber": 11,
+      "slideId": "g2a49ba30dbc_0_995",
+      "textContent": [
+        "白井暁彦: VRエンタテインメントシステムの研究者",
+        "書籍「白井博士の未来のゲームデザイン～エンタテイメントシステムの科学～」(2013)より",
+        "▶ To be Continued!!"
+      ]
+    },
+    {
+      "slideNumber": 12,
+      "slideId": "g3a428efadc4_0_1",
+      "textContent": [
+        "第2回\u000b2025年12月5日（金）\u000b 8限　21:00 ～ 22:30",
+        "第2回 VR5.0: 令和のメタバースと人工現実"
+      ]
+    },
+    {
+      "slideNumber": 13,
+      "slideId": "g3a428efadc4_0_16",
+      "textContent": [
+        "[DHGSVR25] テクノロジー特論D（人工現実）",
+        "[11/28]第1回 人工現実概論\n[12/5] 第2回 VR5.0: 令和のメタバースと人工現実\n[12/12]第3回 Webポートフォリオの制作\n[12/19]第4回 クリエイティブAI\n[12/26]第5回 VTuberを設計する\n[1/9]  第6回 VTuberを発信する\n[1/16] 第7回 「人工現実」をつくる\n[1/23] 第8回 超（meta）メタバース"
+      ]
+    },
+    {
+      "slideNumber": 14,
+      "slideId": "g3a428efadc4_1_0",
+      "textContent": [
+        "人工現実感の歴史",
+        "1960 VR1.0: サザランドらの「ダモクレスの剣」実験室の中\n　　コンピュータの中で「現実」を再現したりシミュレーションする\n\n1990 VR2.0: 研究室の中でメディアとしての研究開発：\u000b　リアルタイムグラフィックスとディスプレイ技術、感覚代行\n　　演じる/あそぶ＝Playできるようになる\n\n2015-2025 VR3.0: Oculusに代表される「コンシューマーデバイス」\n　ゲームエンジンとコンテンツとしてのVR、マーケットプレイス\n    消費できる（作らなくても、楽しむことができる）\n\n2020- VR4.0 VTuber/アバターの時代/メタバース\n　　　HMDを被って→人工世界に入り込む→アバターになる(Play)＝空想の世界"
+      ]
+    },
+    {
+      "slideNumber": 15,
+      "slideId": "g3a4325d5bc0_0_59",
+      "textContent": [
+        "銀塩写真とバーチャファイター"
+      ]
+    },
+    {
+      "slideNumber": 16,
+      "slideId": "g3a4325d5bc0_0_38",
+      "textContent": [
+        "Ivan Sutherland - The Sword of Damocles"
+      ]
+    },
+    {
+      "slideNumber": 17,
+      "slideId": "g3a4325d5bc0_0_30",
+      "textContent": [
+        "パルマー・ラッキー",
+        "https://x.com/shinjirokoiz/status/1996380977195831790/photo/1\nHMDから\u000b軍事ドローンへ"
+      ]
+    },
+    {
+      "slideNumber": 18,
+      "slideId": "g3a428efadc4_0_50",
+      "textContent": [
+        "[第2回] 人工現実 課題提出 bit.ly/DHGSVR",
+        "VR5.0: 令和のメタバースと人工現実\n講義ではみなさんの知識や理解をベースに最新の話題を扱いました。\n今回の紹介した新技術、過去の研究、自分自身が前回提案したスライドを紐づけて「自分自身がおもしろいとおもったもの・こと・課題」についてスライドを1枚以上 作ってURLで提出してください。\nSlideURL: 前回作った自分のGoogleSlidesに追加して、そのページのURLを記載します(新を上、旧を下、1枚目を課題にすると見やすいです)\n資料URL: 調査やエビデンスとなる資料（講義内で紹介したものでも可、論文や年代など、さらに深めて自分の仮説を固めていく調査）\n現状、特にアイディアがない人に「オプション課題」を2つ用意しておきます\n・生成AIのこの1年をスライドでまとめてみてください\n・REALITY (https://reality.app) を遊んでみて、配信前と配信後の自分の中の気づきをレポートしてください。VRoid Studio   AITuberKit \nGitHubのアカウントを作って、そのアカウントURLを伝えてください 例 https://github.com/kaitas"
+      ]
+    },
+    {
+      "slideNumber": 19,
+      "slideId": "g3a4325d5bc0_0_1",
+      "textContent": []
+    },
+    {
+      "slideNumber": 20,
+      "slideId": "g3a428efadc4_0_80",
+      "textContent": []
+    },
+    {
+      "slideNumber": 21,
+      "slideId": "g3a4325d5bc0_0_8",
+      "textContent": []
+    },
+    {
+      "slideNumber": 22,
+      "slideId": "g3a4325d5bc0_0_21",
+      "textContent": [
+        "https://corp.aicu.ai/luc4",
+        "全力肯定彼氏くん\nhttps://x.com/Chigusa_24zono/status/1734860725070262535\n\nhttps://www.youtube.com/shorts/RsD_h84eRt4"
+      ]
+    },
+    {
+      "slideNumber": 23,
+      "slideId": "g3a4325d5bc0_0_14",
+      "textContent": [
+        "https://corp.aicu.ai/chatax"
+      ]
+    },
+    {
+      "slideNumber": 24,
+      "slideId": "g3a428efadc4_0_45",
+      "textContent": [
+        "[11/28]第1回 人工現実概論",
+        "Vecci 自己紹介\nまるてぃー　自己紹介_川口眞里奈\n山下思門　G241TG2054_ヤマシタシモン\nチェン　自己紹介_チェン\nC426 人工現実2025-G251TG2047-C426\nコナン 人工現実2025-G251TG2011-コナン\nフロリア 自己紹介_フロリア\nいざべら　自己紹介_いざべら\nカツマタ　人工現実2025-G251TG2014-カツマタ\nほんま 自己紹介_本間\nシン　自己紹介＿シン　\nもりた 自己紹介＿もりた\n草野さん 自己紹介_草野"
+      ]
+    },
+    {
+      "slideNumber": 25,
+      "slideId": "g3a428efadc4_0_26",
+      "textContent": [
+        "白井暁彦: VRエンタテインメントシステムの研究者",
+        "書籍「白井博士の未来のゲームデザイン～エンタテイメントシステムの科学～」(2013)より",
+        "▶ To be Continued!!"
+      ]
+    },
+    {
+      "slideNumber": 26,
+      "slideId": "g2a49ba30dbc_0_1004",
+      "textContent": []
+    },
+    {
+      "slideNumber": 27,
+      "slideId": "g2a49ba30dbc_0_1011",
+      "textContent": [
+        "Fantastic Phantom Slipper (1997)",
+        "大学院生時代のプロジェクト。見えない存在を足で触る。SIGGRAPH’98採択。"
+      ]
+    },
+    {
+      "slideNumber": 28,
+      "slideId": "g2a49ba30dbc_0_1018",
+      "textContent": [
+        "日本科学未来館 科学コミュニケーター時代",
+        "自然なエンタテインメントの空間で 情報科学技術と社会の未来 を伝える常設展示物の設計"
+      ]
+    },
+    {
+      "slideNumber": 29,
+      "slideId": "g2a49ba30dbc_0_1025",
+      "textContent": [
+        "メガネ不要のARディスプレイ「ExField」 \u000bhttp://blog.shirai.la/projects/exfield/",
+        "VRエンタテイメントシステムの研究(2010-2017)",
+        "神奈川工科大学 情報学部\u000b情報メディア学科で\u000b学生の育成と研究の日々\nblog.shirai.la",
+        "マンガ没入型VRエンタテイメント\n「MangaGenerator」シリーズ"
+      ]
+    },
+    {
+      "slideNumber": 30,
+      "slideId": "g2a49ba30dbc_0_1036",
+      "textContent": [
+        "",
+        "多重化隠蔽映像技術",
+        "ひとつのディスプレイで\u000b複数の映像が同時に視聴できる技術。\n\n3Dディスプレイを改造せず\u000bソフトウェア技術だけで\u000b複数の映像を隠蔽して\u000bメガネを持っている人だけ\u000b別の映像が見れる\u000b魔法のような技術\n\n3Dディスプレイと\u000b2Dディスプレイの\u000bハイブリッド化にも\u000b利用でき、子供など\u000b「3Dメガネがつらい人」が\u000b同時に視聴するときにも\u000b可能性がある技術"
+      ]
+    },
+    {
+      "slideNumber": 31,
+      "slideId": "g2a49ba30dbc_0_1044",
+      "textContent": []
+    },
+    {
+      "slideNumber": 32,
+      "slideId": "g2a49ba30dbc_0_1048",
+      "textContent": []
+    },
+    {
+      "slideNumber": 33,
+      "slideId": "g2a49ba30dbc_0_1052",
+      "textContent": [
+        "今回の講義で紹介したURLs",
+        "講義で紹介したYouTube動画はこちらのプレイリストで公開しています https://bit.ly/DHGSVR21YT （紹介時系列とは逆順になっています）\n\nPhantastic Phantom Slipper [Web] [論文]\nInterverse Virtual Reality Challenge (IVRC) https://ivrc.net/2021/\nManga Generator https://manga.style/\nバーチャルライブ配信アプリ「REALITY」 https://reality.app/\n100億円投資で世界数億人ユーザー獲得へ、グリー「メタバース事業」の中核担うREALITYとは\u000bhttps://signal.diamond.jp/articles/-/859\nREALITY/GREE VR Studio Laboratoryのnoteマガジン https://note.com/reality_eng/m/m394ac85738b5\n\nSIGGRAPH ASIA 2021 Tokyo https://sa2021.siggraph.org/jp/registration-travel/registration-categories-fees\nLaval Virtual Awards https://www.laval-virtual.com/awards-winners-2021/\n\n昨年の学生の作品 \nhttps://hubs.mozilla.com/wFvEB67/"
+      ]
+    },
+    {
+      "slideNumber": 34,
+      "slideId": "g2a49ba30dbc_0_1057",
+      "textContent": [
+        "今週のおまけURLs",
+        "[日本科学未来館] 計算機と自然、計算機の自然 (落合陽一先生監修の常設展示)\n[日本科学未来館] 零壱庵（ゼロイチアン）　「『AKIRA』の音 不朽のアニメ映画を彩る未知のサウンド」展示\u000b　https://www.yamashirogumi.jp/info/20210326_miraikantenji/\n[過去作] ジャンプVRが、「Anime Expo 2017」の「日本キャラVR祭～Japan Character VR～」に出展決定！ (shueisha.co.jp)\n[追加:AX2017] In the memory of Anime Expo 2017 - YouTube\n[AX2017:VR赤ちゃんシミュレータ] Real Baby - Real Family /日本語 - YouTube\n[AX2017:MyDearest] MyDearest | マイディアレスト (mydearestvr.com)\n[MyDearest:ALTDEUS(12/4発売の新作)] ALTDEUS: Beyond Chronos（アルトデウス: ビヨンドクロノス）\n[Oculus Store] ALTDEUS: Beyond Chronos（アルトデウス: ビヨンドクロノス）\n[#DHGS2019VR] 中国南昌市のVTuberグループ「NAOISE（ノイシュ）」デビュー | Mogura VR\n[2019年の受講生の様子] (1) #DHGS2019VR - Twitter検索 / Twitter\n[#DHGS2019] 【自己紹介】新人VTuber・寧々参上！ https://www.youtube.com/watch?v=-7JMVJTzKxY\n\n昨年紹介したYouTube動画のプレイリスト  https://bit.ly/DHGS2020VRYT\n\nフランス系の映像メディアが2018/10/26に制作した日本のVTuber現象に関するるポタージュ。\n今見ても史料価値高い（生き残っているVTuber、現存の企業名、いくつわかるかな…？）\n\"Who are Japan’s Virtual YouTubers? - Binary Skin\"\nhttps://www.youtube.com/watch?v=7zZwjRmMWcY\nこれまでの5年、これからの5年――「VR元年」の終焉から世界同時参加のXRライブエンタメへ(メディア芸術カレントコンテンツへの寄稿) https://mediag.bunka.go.jp/article/article-16853/"
+      ]
+    },
+    {
+      "slideNumber": 35,
+      "slideId": "g2a49ba30dbc_0_1062",
+      "textContent": [
+        "[11/29] 第1講 自己紹介スライドをつくる",
+        "デジタルコンテンツマネジメント（DCM）修士とは\nVR技術者認定講習会・試験"
+      ]
+    },
+    {
+      "slideNumber": 36,
+      "slideId": "g32161509555_0_699",
+      "textContent": [
+        "紹介",
+        "科学ゲームジャム\nhttps://ja.aicu.ai/scientific-20241112/\nhttps://www.youtube.com/watch?v=75jA7F8AXC4\nhttps://www.miraikan.jst.go.jp/exhibitions/future/\n\nhttps://www.youtube.com/watch?v=yTrDRKazksM\nSIGGRAPH ASIA 2024\nhttps://note.com/o_ob/n/nbf44f75d5dd0"
+      ]
+    },
+    {
+      "slideNumber": 37,
+      "slideId": "g3a428efadc4_0_35",
+      "textContent": [
+        "第3回\u000b2025年12月12日（金）\u000b 8限　21:00 ～ 22:30",
+        "第3回 Webポートフォリオの制作\nオープンソース技術とGitHubを使って、Webメタバース年賀状を制作し、公開する。"
+      ]
+    },
+    {
+      "slideNumber": 38,
+      "slideId": "g3aff7e8c4af_0_0",
+      "textContent": [
+        "[DHGSVR25] テクノロジー特論D（人工現実）",
+        "[11/28]第1回 人工現実概論\n[12/5] 第2回 VR5.0: 令和のメタバースと人工現実\n[12/12]第3回 Webポートフォリオの制作\n[12/19]第4回 クリエイティブAI\n[12/26]第5回 VTuberを設計する\n[1/9]  第6回 VTuberを発信する\n[1/16] 第7回 「人工現実」をつくる\n[1/23] 第8回 超（meta）メタバース"
+      ]
+    },
+    {
+      "slideNumber": 39,
+      "slideId": "g3aff7e8c4af_0_10",
+      "textContent": [
+        "https://www.aicu.jp/post/matilda-251222"
+      ]
+    },
+    {
+      "slideNumber": 40,
+      "slideId": "g3a428efadc4_0_61",
+      "textContent": [
+        "[第2回] VR5.0: 令和のメタバースと人工現実",
+        "まるてぃー 人工現実2025-G251TG2016-まるてぃー\nチェン　人工現実2025-G251TG2036-チェン\n人工現実2025-G251TG2025-ジアン \n人工現実2025-G251TG2045-ラさん\nVecci 園延昌志\n山下思門\nC426\nコナン　人工現実2025-G251TG2011-コナン\nフロリア 人工現実2025-G251TG2021-フロリア\nいざべら\nカツマタ\nほんま\nシン\nもりた\n草野さん"
+      ]
+    },
+    {
+      "slideNumber": 41,
+      "slideId": "g3aff7e8c4af_1_0",
+      "textContent": [
+        "キズナアイ"
+      ]
+    },
+    {
+      "slideNumber": 42,
+      "slideId": "g3aff7e8c4af_1_8",
+      "textContent": [
+        "Googleとのタイアップ広告"
+      ]
+    },
+    {
+      "slideNumber": 43,
+      "slideId": "g3aff7e8c4af_0_99",
+      "textContent": []
+    },
+    {
+      "slideNumber": 44,
+      "slideId": "g3aff7e8c4af_0_17",
+      "textContent": [
+        "https://j.aicu.ai/251212"
+      ]
+    },
+    {
+      "slideNumber": 45,
+      "slideId": "g3aff7e8c4af_1_14",
+      "textContent": [
+        "ディズニー「白雪姫」"
+      ]
+    },
+    {
+      "slideNumber": 46,
+      "slideId": "g3aff7e8c4af_0_26",
+      "textContent": [
+        "第3回 Webポートフォリオの制作(1)",
+        "オープンソース技術とGitHubを使って、Webメタバース年賀状を制作し、公開する。\n①GitHubアカウントを作る\n②GitHub Pagesを使う\n　リポジトリの作成\n　GitHub Desktopのインストール　https://github.com/apps/desktop\n　VS Code のインストール　https://code.visualstudio.com/download\n\n③AITuberKitをクローンする\n④ChatGPTのAPIを取得する\n⑤GitHubにデプロイする"
+      ]
+    },
+    {
+      "slideNumber": 47,
+      "slideId": "g3aff7e8c4af_0_45",
+      "textContent": [
+        "GitHubアカウントをつくる",
+        "https://github.com/kaitas"
+      ]
+    },
+    {
+      "slideNumber": 48,
+      "slideId": "g3aff7e8c4af_0_51",
+      "textContent": [
+        "GitHub Pagesをつかう 公式マニュアル",
+        "Repositories → New 公式マニュアル"
+      ]
+    },
+    {
+      "slideNumber": 49,
+      "slideId": "g3aff7e8c4af_0_61",
+      "textContent": [
+        "GitHub Pagesをつかう 公式マニュアル",
+        "リポジトリに <user>.github.io という名前を付ける必要があります。",
+        "リポジトリを所有しているアカウントが GitHub Free を使用している場合、そのリポジトリはパブリックである必要があります。\n\nページの右上隅で  を選択し、 [新しいリポジトリ] をクリックします。\n\nリポジトリに <user>.github.io という名前を付ける必要があります。\n[ README の追加 ] を [オン] に切り替えます。\n\n[Create repository] (リポジトリの作成) をクリックします。"
+      ]
+    },
+    {
+      "slideNumber": 50,
+      "slideId": "g3aff7e8c4af_0_86",
+      "textContent": [
+        "GitHub Pagesをつかう 公式マニュアル",
+        "リポジトリに <user>.github.io という名前を付ける必要があります。",
+        "サイトを作成する前には、GitHub 上にサイト用のリポジトリがある必要があります。 \n\n警告: GitHub Pages サイトは、そのサイトのリポジトリがプライベートであっても、インターネット上で一般に公開になります。\n\nサイト用のエントリ ファイルを作成します。GitHub Pages では、サイト用のエントリ ファイルとして index.html、index.md、または README.md ファイルを検索します。\n\nパブリッシュ ソースがブランチとフォルダーの場合、エントリ ファイルはソース ブランチのソース フォルダーの最上位にある必要があります。 たとえば、公開元が main ブランチ上の /docs フォルダーである場合、エントリ ファイルは、main という名前のブランチ上の /docs フォルダー内に配置する必要があります。\n\n公開元が GitHub Actions ワークフローである場合、デプロイする成果物には、成果物の最上位レベルにあるエントリ ファイルが含まれている必要があります。 エントリ ファイルをリポジトリに追加する代わりに、GitHub Actions ワークフローの実行時にエントリ ファイルを生成するように選択することもできます。\n\n公開ソースを設定してください。 「GitHub Pages サイトの公開元を設定する」を参照してください。\n\nGitHub Pages サイトは、GitHub Actions ワークフローでビルドされ、デプロイされます。 詳しくは、「ワークフロー実行の履歴を表示する」をご覧ください。\n\nメモ\n\nGitHub Actions はパブリックリ ポジトリでは無料です。 使用料は、無料の時間 (分) の毎月の割り当てを超えるプライベート リポジトリと内部リポジトリに適用されます。 詳しくは、「課金と使用」をご覧ください。\n\n公開されたサイトの表示\nリポジトリ名の下にある  [Settings] をクリックします。 [設定] タブが表示されない場合は、 [] ドロップダウン メニューを選び、 [設定] をクリックします。\n\nタブを示すリポジトリ ヘッダーのスクリーンショット。 [設定] タブが濃いオレンジ色の枠線で強調表示されています。\nサイドバーの [Code and automation] セクションで、[ Pages] をクリックします。\n\n公開されたサイトを表示するには、[GitHub Pages] で  [Visit site] をクリックします。\n\nメモ\n\nサイトに対する変更は、その変更を GitHub にプッシュしてから公開されるまでに最大 10 分かかることがあります。 GitHub Pages サイトの変更が 1 時間経ってもブラウザーに反映されない場合は、「GitHub PagesサイトのJekyllビルドエラーについて」を参照してください。\n\nブランチから公開していて、サイトが自動的に公開されていない場合は、管理者アクセス許可と検証済みのメール アドレスを持つユーザーが公開元にプッシュしていることを確認します。\nGITHUB_TOKEN を使う GitHub Actions ワークフローによってプッシュされたコミットでは、GitHub Pages ビルドがトリガーされません。"
+      ]
+    },
+    {
+      "slideNumber": 51,
+      "slideId": "g3aff7e8c4af_0_108",
+      "textContent": [
+        "②",
+        "①",
+        "③",
+        "④"
+      ]
+    },
+    {
+      "slideNumber": 52,
+      "slideId": "g3aff7e8c4af_0_118",
+      "textContent": [
+        "⑤",
+        "⑥"
+      ]
+    },
+    {
+      "slideNumber": 53,
+      "slideId": "g3aff7e8c4af_0_124",
+      "textContent": [
+        "GitHub Actionsによるビルドが始まる",
+        "自分のリポジトリの[Actions]のタブを見ると🟡ぐるぐるしている",
+        "待つのみ。"
+      ]
+    },
+    {
+      "slideNumber": 54,
+      "slideId": "g3aff7e8c4af_0_131",
+      "textContent": [
+        "しばらく待つと完成!",
+        "このURLにアクセスすると完成！…ですがまだ404エラーのはず"
+      ]
+    },
+    {
+      "slideNumber": 55,
+      "slideId": "g3aff7e8c4af_0_67",
+      "textContent": [
+        "GitHub Pagesをつかう 公式マニュアル",
+        "この状態だと README.md のみがある状態なので、隣に index.html を作る\n\nまずはコードエディタを使って index.html を自力で作ってみよう。\n\u000b⭐️かなり適当なHTMLファイルの例\n<html>\n <body> 僕のポートフォリオ </body>\n</html>"
+      ]
+    },
+    {
+      "slideNumber": 56,
+      "slideId": "g3aff7e8c4af_1_81",
+      "textContent": [
+        "GitHub Pagesをつかう 公式マニュアル",
+        "この状態だと README.md のみがある状態なので、隣に index.html を作る\n（まずはGitHub DesktopとVSCodeをインストールした状態で）\u000b[<>CODE]→[Open with GitHub Desktop]とするとGitHubが開く"
+      ]
+    },
+    {
+      "slideNumber": 57,
+      "slideId": "g3aff7e8c4af_1_76",
+      "textContent": [
+        "GitHub DesktopでのClone",
+        "クローンとは、GitHubで預かってもらっているソースコードのコピーを作って\u000bローカル(=自分のPC/Mac)で開発したり編集できる状態にすること。\n\nローカルでの作業が終わったら、リポジトリ(預かり場所)に差分を納品します。\n\nGitはその差分を\u000b常に監視して管理してくれる\u000b\u000b複数人での開発や\u000b細切れの時間で開発する時\u000b大変役に立ちます。",
+        "保存先は”クラウド同期してない場所”をおすすめ"
+      ]
+    },
+    {
+      "slideNumber": 58,
+      "slideId": "g3aff7e8c4af_1_94",
+      "textContent": [
+        "GitHub Desktop",
+        "左上「Current Repository」を右クリック\n→「Open in Visual Studio Code」で起動できる",
+        "VS Codeがインストール\nされてないと表示されない"
+      ]
+    },
+    {
+      "slideNumber": 59,
+      "slideId": "g3aff7e8c4af_1_64",
+      "textContent": [
+        "VS Code 初回（信頼する）"
+      ]
+    },
+    {
+      "slideNumber": 60,
+      "slideId": "g3aff7e8c4af_1_121",
+      "textContent": [
+        "Visual Studio Codeの使い方は割愛…！",
+        "覚えておくといいもの「拡大」「ターミナル」\n\nファイル\n検索\nリポジトリ\n\nその下は\u000bアプリとか\u000b機能拡張です\n\n\n\n\n設定"
+      ]
+    },
+    {
+      "slideNumber": 61,
+      "slideId": "g3aff7e8c4af_1_51",
+      "textContent": [
+        "GitHub Desktopでの Commit & Push"
+      ]
+    },
+    {
+      "slideNumber": 62,
+      "slideId": "g3aff7e8c4af_1_129",
+      "textContent": [
+        "GitHub Desktopでの Commit & Push",
+        "編集してみる\n\nREADME.mdを改造\n\nリンクは[](URL)で\u000bかけます\n\n画像\nPNGファイルを\n同階層におきます\n(右クリックして\u000bFinderで表示）\nもしくは\u000bエクスプローラーに\u000bPNGファイルをドロップ"
+      ]
+    },
+    {
+      "slideNumber": 63,
+      "slideId": "g3aff7e8c4af_1_136",
+      "textContent": [
+        "GitHub Desktopでの Commit & Push",
+        "GitHub Desktopに戻ると、変更が検出されているはずです。\n右側に変更箇所（テキストの差分が+/-で書かれている）\n左側が対象ファイル\n\n\n\n\n\n\n\nコミットメッセージ\nその詳細(不要)\n\n[Commit]する"
+      ]
+    },
+    {
+      "slideNumber": 64,
+      "slideId": "g3aff7e8c4af_1_142",
+      "textContent": [
+        "GitHub Desktopでの Commit & Push",
+        "[Push origin]というボタンを押すとGitHubサーバーに納品完了です！",
+        "どちらのボタンでもいい"
+      ]
+    },
+    {
+      "slideNumber": 65,
+      "slideId": "g3aff7e8c4af_1_151",
+      "textContent": [
+        "再度WebのGitHub Actionsを見に行くと…",
+        "みなさんの場合は\u000b(yourName).github.io/README.md\u000bというURLを見に行くとこうなってる",
+        "github.io/(yourName)/README.md\u000bというURLを見に行くとこうなってる"
+      ]
+    },
+    {
+      "slideNumber": 66,
+      "slideId": "g3aff7e8c4af_1_57",
+      "textContent": [
+        "Codespaceを使う場合…",
+        "GitHubリポジトリから（GitHub DesktopもVS Codeも使わずに）\u000b直接 VS Code と同じ環境を使うことができる！"
+      ]
+    },
+    {
+      "slideNumber": 67,
+      "slideId": "g3aff7e8c4af_0_39",
+      "textContent": [
+        "起動済"
+      ]
+    },
+    {
+      "slideNumber": 68,
+      "slideId": "g3aff7e8c4af_1_70",
+      "textContent": [
+        "ともかく index.html を作ろう"
+      ]
+    },
+    {
+      "slideNumber": 69,
+      "slideId": "g3aff7e8c4af_1_109",
+      "textContent": [
+        "Codespaceでの commit & push",
+        "GitHubリポジトリから（GitHub DesktopもVS Codeも使わずに）\u000b直接 VS Code と同じ環境を使うことができる！",
+        "コミットメッセージは\u000b丁寧に書く癖をつけよう↓"
+      ]
+    },
+    {
+      "slideNumber": 70,
+      "slideId": "g3aff7e8c4af_1_163",
+      "textContent": [
+        "今週の課題「Codex」を使ってWebサイトを作る",
+        "https://github.com/kaitas/DHGSVR →　https://akihiko.shirai.as/DHGSVR/\nmacの場合は brew install codex でOK。ChatGPT Plus契約者は無料です。"
+      ]
+    },
+    {
+      "slideNumber": 71,
+      "slideId": "g3aff7e8c4af_0_33",
+      "textContent": [
+        "そのあとは AITuber Kit 使って自分のサイトを！"
+      ]
+    },
+    {
+      "slideNumber": 72,
+      "slideId": "g3aff7e8c4af_0_5",
+      "textContent": [
+        "第4回\u000b2025年12月19日（金）\u000b 8限　21:00 ～ 22:30",
+        "クリエイティブAI"
+      ]
+    },
+    {
+      "slideNumber": 73,
+      "slideId": "g3a428efadc4_0_40",
+      "textContent": [
+        "[DHGSVR25] テクノロジー特論D（人工現実）",
+        "[11/28]第1回 人工現実概論\n[12/5] 第2回 VR5.0: 令和のメタバースと人工現実\n[12/12]第3回 Webポートフォリオの制作\n[12/19]第4回 クリエイティブAI\n[12/26]第5回 VTuberを設計する\n[1/9]  第6回 VTuberを発信する\n[1/16] 第7回 「人工現実」をつくる\n[1/23] 第8回 超（meta）メタバース"
+      ]
+    },
+    {
+      "slideNumber": 74,
+      "slideId": "g3aae43ae906_0_0",
+      "textContent": [
+        "[12/19] VibeCoding:\u000bGitHubとコーディングエージェント",
+        "① Gemini, Codex, Claudeどれか1つと仲良くなる、特徴をレポート。\n「自分が一番気に入ったのはXXXです、理由は…」\n② 他の人の自己紹介サイトでいいなと思ったサイトを1つ投票\n③ AITuberKitのインストールとカスタマイズに挑戦!\n④ https://ch.aicu.jp/ FTUEと改善案を提案する\n⑤ [new year 2026] を準備し始める\n\nbit.ly/DHGSVR",
+        "前回の作品リスト\u000b\u000bhttps://akihiko.shirai.as/DHGSVR/\nhttps://c426.github.io/\nhttps://sonobemasashi-web.github.io/github.io/\nhttps://final-ke.github.io/\nhttps://isa251.github.io\nhttps://github.com/g241tg2054-png/g241tg2054.github.io\nhttps://marinakawaguchi.com/\nhttps://tofumisoshiru.github.io/DHGSVR/\nhttps://lovpipit.github.io/\nhttps://floriahimmel.github.io/4Q_Floria/\nhttps://anine998.github.io\nhttps://saia-ui.github.io/\nhttps://siraha0611.github.io/kaso-katsumata.github.io/"
+      ]
+    },
+    {
+      "slideNumber": 75,
+      "slideId": "g3ab0c83f9ce_0_0",
+      "textContent": [
+        "第5回\u000b2025年12月26日（金）\u000b 8限　21:00 ～ 22:30",
+        "クリエイティブAI"
+      ]
+    },
+    {
+      "slideNumber": 76,
+      "slideId": "g3ab0c83f9ce_0_5",
+      "textContent": [
+        "[DHGSVR25] テクノロジー特論D（人工現実）",
+        "[11/28]第1回 人工現実概論\n[12/5] 第2回 VR5.0: 令和のメタバースと人工現実\n[12/12]第3回 Webポートフォリオの制作\n[12/19]第4回 クリエイティブAI\n[12/26]第5回 VTuberを設計する\n[1/9]  第6回 VTuberを発信する\n[1/16] 第7回 「人工現実」をつくる\n[1/23] 第8回 超（meta）メタバース"
+      ]
+    },
+    {
+      "slideNumber": 77,
+      "slideId": "g3ab0c83f9ce_0_10",
+      "textContent": [
+        "そのあとは AITuber Kit 使って自分のサイトを！"
+      ]
+    },
+    {
+      "slideNumber": 78,
+      "slideId": "g3ab0c83f9ce_0_72",
+      "textContent": [
+        "オープンソース「AITuberKit」を掌握してみよう",
+        "1.今日からあなたもAITuberデベロッパー｜ニケちゃん を読む\n2. GitHub - tegnike/aituber-kit を Cloneしてみる\n3. Claude/Gemini/Codexのどれかを使って「安全なデプロイ方法」を「自分の使いたい機能」とともに解説してもらう→AGENTS.mdを作ってもらう\n4. (上記をやってもらいながら) VRoid Studio を使ってオリジナルアバターの制作を行う\n5. オリジナルアバターのスクショを撮ったり、NanoBanana等の素材にする\n6. AITuberKitのVRMを自分のアバターで置き換えてみる\n7. システムプロンプトを工夫して、自分がAITuberにやらせたい機能を作ろう\n\n<可能なら> 自己紹介ポートフォリオや年賀状サイトとして\u000b8. aituber-kitのソースをforkして\u000b　Vercel/GitHub Pages/独自ドメインにデプロイしてみる"
+      ]
+    },
+    {
+      "slideNumber": 79,
+      "slideId": "g3ab0c83f9ce_0_129",
+      "textContent": [
+        "次回1/9! みなさんのNewYear自己紹介+AITuber講評会",
+        "1/7までにForm提出 人工現実 課題提出 bit.ly/DHGSVR\n(フォーム#5は12/29ごろまでにオープン予定です)\n\n①じぶんのNewYear URL(GitHub/Vercel/独自ドメイン...)\n②FTUEのためのガイドを1行でも（見て欲しいところ）\n③他の受講生のサイトで、気になったURLを紹介（早く出したほうが🉐？）\n④その理由\n⑤VTuberを発信するSNS(YouTuber/TwitterのURL)見どころ録画.."
+      ]
+    },
+    {
+      "slideNumber": 80,
+      "slideId": "g3b450737a76_0_0",
+      "textContent": [
+        "第6回\u000b2026年1月9日（金）\u000b 8限　21:00 ～ 22:30",
+        "VTuberを発信する"
+      ]
+    },
+    {
+      "slideNumber": 81,
+      "slideId": "g3b2723ac786_0_6",
+      "textContent": [
+        "次回1/9! みなさんのNewYear自己紹介+AITuber講評会",
+        "1/7までにForm提出 人工現実 課題提出 bit.ly/DHGSVR\n(フォーム#5は12/29ごろまでにオープン予定です)\n\n①じぶんのNewYear URL(GitHub/Vercel/独自ドメイン...)\n②FTUEのためのガイドを1行でも（見て欲しいところ）\n③他の受講生のサイトで、気になったURLを紹介（早く出したほうが🉐？）\n④その理由\n⑤VTuberを発信するSNS(YouTuber/TwitterのURL)見どころ録画.."
+      ]
+    },
+    {
+      "slideNumber": 82,
+      "slideId": "g3b450737a76_0_15",
+      "textContent": [
+        "本家[aituber-kit] フォークをして自分のコードに"
+      ]
+    },
+    {
+      "slideNumber": 83,
+      "slideId": "g3ab0c83f9ce_0_67",
+      "textContent": [
+        "AITuber kit 自動プレゼン",
+        "slides.md/scripts.jsonを使う\n\n  1. 「セリフ編集」ボタンをクリック\n  2. スライドエディタで内容を確認・調整\n  3. メイン画面に戻って自動プレゼン開始\n\n  オプション2: PDFから新規生成\n\n  1. 保存フォルダ名 に DHGSVR25-3-new など入力\n  2. モデル選択 で gpt-4.1 を選択\n  3. PDFをスライドに変換 をクリック\n  4. AIがPDFを解析して slides.md と scripts.json を自動生成"
+      ]
+    },
+    {
+      "slideNumber": 84,
+      "slideId": "g3b450737a76_0_23",
+      "textContent": [
+        ".envによるローカルテスト",
+        "Google API キーを取得したら、.env に設定してローカル動作確認を進められます。.envは.gitignoreに書かれていれば、GitHubへのアップロードはされません\n\nデフォルトから変更する要素\nNEXT_PUBLIC_SELECT_LANGUAGE=\"ja\"\n# キャラクター名 / Character name\nNEXT_PUBLIC_CHARACTER_NAME=\"全力肯定彼氏くん[LuC4]\"\n# 選択するVRMモデルのパス / Path to the selected VRM model\nNEXT_PUBLIC_SELECTED_VRM_PATH=\"/vrm/LuC4.vrm\"\n実際のファイルは public/vrm/LuC4.vrm に配置\nGOOGLE_API_KEY を https://aistudio.google.com/apikey でキー取得(使いまわさないこと!)\nNEXT_PUBLIC_SLIDE_MODE=\"true\""
+      ]
+    },
+    {
+      "slideNumber": 85,
+      "slideId": "g3b2723ac786_0_0",
+      "textContent": [
+        "出来上がった動画(100ページぐらいのスライド)"
+      ]
+    },
+    {
+      "slideNumber": 86,
+      "slideId": "g32161509555_0_724",
+      "textContent": [
+        "第2回 令和のメタバースと人工現実の未来開発",
+        "WebXR, NFTやWeb3、VTuberといった新しいエンゲージメントをSNSを使って構築し自らの手でメタバースと呼ばれる価値や体験の歴史と概要を学ぶ。\n> ①永続的，②同期的かつライブで，③スケールし，④完全に機能する経済があり，⑤複数の世界を横断し，⑥「コンテンツ」と「体験」が存在すること，\n・3D空間　・リアルタイム　・価値の交換/UGC\n・距離　・表情　・声　・実在感(presence)"
+      ]
+    },
+    {
+      "slideNumber": 87,
+      "slideId": "g32161509555_0_729",
+      "textContent": [
+        "第2回 令和のメタバースと人工現実の未来開発",
+        "課題：今回の紹介した新技術、過去の研究、自分自身が前回提案したスライドを紐づけて「自分自身がおもしろいとおもったもの・こと・課題」についてスライドを1枚以上 作ってURLで提出してください。\n資料URL　　　SlideURL\n現状、特にアイディアがない人に「オプション課題」を2つ用意しておきます\n・生成AIのこの1年をスライドでまとめてみてください\n・REALITY (https://reality.app) を遊んでみて、配信前と配信後の自分の中の気づきをレポートしてください。"
+      ]
+    },
+    {
+      "slideNumber": 88,
+      "slideId": "g32161509555_0_734",
+      "textContent": []
+    },
+    {
+      "slideNumber": 89,
+      "slideId": "g32161509555_0_739",
+      "textContent": [
+        "SIGGRAPH ASIA 2024いったひと!",
+        "中村舞衣子も行きました！"
+      ]
+    },
+    {
+      "slideNumber": 90,
+      "slideId": "g32161509555_0_745",
+      "textContent": []
+    },
+    {
+      "slideNumber": 91,
+      "slideId": "g32161509555_0_751",
+      "textContent": [
+        "OpenAI [Sora]が出た！"
+      ]
+    },
+    {
+      "slideNumber": 92,
+      "slideId": "g32161509555_0_757",
+      "textContent": [
+        "[11/29]第１講　自己紹介スライドをつくる",
+        "https://www.artstation.com/hypnos_ht",
+        "イラストレーシ"
+      ]
+    },
+    {
+      "slideNumber": 93,
+      "slideId": "g32161509555_0_765",
+      "textContent": [
+        "最近作っているもの\n自分のAIアバター",
+        "最近感動したこと。ALSの方のフェスをサポートして、脳波でロボットアームを操作したり、観客とインタラクトしていることに衝撃をうけました。わたしも脳波の勉強したいです。"
+      ]
+    },
+    {
+      "slideNumber": 94,
+      "slideId": "g32161509555_0_774",
+      "textContent": []
+    },
+    {
+      "slideNumber": 95,
+      "slideId": "g32161509555_0_778",
+      "textContent": [
+        "第3回 クリエイティブAI",
+        "画像生成AIについて、その歴史、基礎技術、キャラクターイラスト、キャラクターデザイン、年賀状素材といった具体的な課題を通して基礎的知識と使い方を学ぶ。"
+      ]
+    },
+    {
+      "slideNumber": 96,
+      "slideId": "g32161509555_0_783",
+      "textContent": [
+        "[12/13]",
+        "第1回 人工現実概論\n講義概要と、人工現実の現在過去未来を俯瞰する。\n第2回 令和のメタバースと人工現実の未来開発\nWebXR, NFTやWeb3、VTuberといった新しいエンゲージメントをSNSを使って構築し自らの手でメタバースと呼ばれる価値や体験の歴史と概要を学ぶ。\n第3回 クリエイティブAI\n画像生成AIについて、その歴史、基礎技術、キャラクターイラスト、キャラクターデザイン、年賀状素材といった具体的な課題を通して基礎的知識と使い方を学ぶ。"
+      ]
+    },
+    {
+      "slideNumber": 97,
+      "slideId": "g32161509555_0_788",
+      "textContent": [
+        "第3回\u000b2024年12月20日（金）\u000b 8限　21:00 ～ 22:30",
+        "【課題#3】画像生成AIを用いて\u000b「年賀状・新年会サイトの準備をする」"
+      ]
+    },
+    {
+      "slideNumber": 98,
+      "slideId": "g32161509555_0_798",
+      "textContent": [
+        "画像生成AI\u000b 「ComfyUIマスターガイド」",
+        "[ComfyMaster] ここからはじめる「ComfyUIマスターガイド」"
+      ]
+    },
+    {
+      "slideNumber": 99,
+      "slideId": "g32161509555_0_804",
+      "textContent": [
+        "https://j.aicu.ai/coloso3"
+      ]
+    },
+    {
+      "slideNumber": 100,
+      "slideId": "g2a49ba30dbc_0_336",
+      "textContent": [
+        "Hubsとは:Mozillaが開発するソーシャルWebVRです",
+        "オープンソース(MPLv2)\nブラウザ＆多デバイスサポート\nURLだけでVRルームを作れる\n気軽に3Dアバターチャットできる\n動画再生共有・同期視聴可能\nCC0なモデルを取り込んで再利用\nYouTubeやURLなどを空間共有\n商用利用可能\nAWS等で独自ドメイン運用可能",
+        "【紹介】\nMozilla Hubsが拓く新世代WebVRのススメ #HubsScrum\nhttps://www.slideshare.net/vrstudiolab/mozilla-hubswebvr-hubsscrum\n\n上記を自動上映するHubsのルーム\nhttps://hubs.mozilla.com/d3VkEtm/\n\nIEEEVR2020での発表例\nhttps://hubs.mozilla.com/fYnpc8m/avatar-driven-vr-society-trends-in-japan/"
+      ]
+    },
+    {
+      "slideNumber": 101,
+      "slideId": "g2a49ba30dbc_0_345",
+      "textContent": [
+        "GREE VR Studio Lab - Hubs活用実績",
+        "公開デモルーム・アーカイブ vr.gree.net/lab/demo/hubs\u000bオンラインライブイベント 4件\nVRSionUp!7「Hubs Study」, \u000bVRSionUp!8「WebVRオンラインイベント開発」,\nVirtual Beings World in SIGGRAPH 2020,\nVTech Challenge 2020最終発表会\n公開型ワークショップ 4件\n研究成果発表会, KIDS’ WORKSHOP 2020, HubsでもくもくBlenderワークショップ#1&#2\n資料化: 日本語化69件 Web記事6件 学術貢献 4件\nHubs日本語ドキュメント http://j.mp/HubsDocsJp 69件, Web記事6件\u000b第25回日本VR学会大会OVEアドバイザ + 一般発表, Web3D Conf2020, \u000bデジタルハリウッド大学紀要, グリー技術書典部誌 2020年秋号",
+        "祝↑受賞!!"
+      ]
+    },
+    {
+      "slideNumber": 102,
+      "slideId": "g2a49ba30dbc_0_353",
+      "textContent": [
+        "キッズワークショップ：森ビルとコラボ"
+      ]
+    },
+    {
+      "slideNumber": 103,
+      "slideId": "g2a49ba30dbc_0_362",
+      "textContent": [
+        "小学校4年～中学2年までの14人の参加者x2回\n詳細：http://www.roppongihills.com/sp/workshop/2020/",
+        "キッズワークショップ2020（森ビル株式会社主催）\n「WebVRでライブエンタメ番組を研究しよう」"
+      ]
+    },
+    {
+      "slideNumber": 104,
+      "slideId": "g2a49ba30dbc_0_370",
+      "textContent": [
+        "Zone 1: 自己紹介とアバター制作",
+        "Zone 2: シナリオ設計",
+        "Zone 3: 収録エリア",
+        "Sugoroku method",
+        "“Web3D Live Distance Workshop for Children in Mozilla Hubs”,\nIn The 25th International ACM Conference on 3D Web Technology",
+        "・それぞれのゾーンにミッションがある\n・時間を使い過ぎずに進行できる"
+      ]
+    },
+    {
+      "slideNumber": 105,
+      "slideId": "g2a49ba30dbc_0_386",
+      "textContent": [
+        "HubsでもくもくBlenderワークショップ",
+        "・自習用の動画をスゴロクメソッドで配置\n・自分のペースでいつでも学習を進行できる\n・デスクトップ共有で先生と一緒に進められる\n・作ったGLBモデルをそのまま3D空間で共有できる"
+      ]
+    },
+    {
+      "slideNumber": 106,
+      "slideId": "g2a49ba30dbc_0_395",
+      "textContent": [
+        "グリー技術ブログ：独自アバター実装フロー他 https://labs.gree.jp/blog/2020/09/20816/"
+      ]
+    },
+    {
+      "slideNumber": 107,
+      "slideId": "g2a49ba30dbc_0_403",
+      "textContent": [
+        "“Virtual Beings World”in SIGGRAPH 2020",
+        "を使った拍手やYouTubeコメントとの融合",
+        "WebVRを使った世界設計とコトづくり"
+      ]
+    },
+    {
+      "slideNumber": 108,
+      "slideId": "g2a49ba30dbc_0_420",
+      "textContent": [
+        "#VTC20 -Hubsを舞台にした\u000bオンラインハッカソンプログラム",
+        "【募集要項】\u000b対象：WebVRに関心があり最初の一歩を踏み出したい個人及びグループ\u000bテーマ「Withコロナ時代の社会問題の解決」\u000b 新たな感染症によって失われてしまった日常生活、仕事、学び、交流…新しく生まれた社会問題を解決する提案や実践的な使い方、アバターやワールド制作などのデザインを募集します。例えば大学生であれば、授業やゼミ、オープンキャンパス、学園祭、アルバイトなど…ネットワークVRを使うことでできる社会課題の解決をHubs内のモックアップとして自由なフォーマットで制作してください。\n\n【スケジュール】\u000bエントリー：2020年7月15日(水)～2020年9月30日(水)\u000b最終発表会：2020年10月23日 Hubs＆YouTubeLive\n連携オンラインイベントも開催\n\n【評価要素】\u000b・魅力的なアバター　・ワールド\u000b・カスタマイズや運用事例など\n上記を中心に総合的に評価します。",
+        "“XRライブエンタメ駆動の\n研究開発と高速社会実装(仮)”"
+      ]
+    },
+    {
+      "slideNumber": 109,
+      "slideId": "g2a49ba30dbc_0_429",
+      "textContent": [
+        "#VTC20",
+        "https://vr.gree.net/lab/vtc/vtc20/"
+      ]
+    },
+    {
+      "slideNumber": 110,
+      "slideId": "g2a49ba30dbc_0_437",
+      "textContent": []
+    },
+    {
+      "slideNumber": 111,
+      "slideId": "g2a49ba30dbc_0_444",
+      "textContent": [
+        "Hubs活用テクニックAtoZ",
+        "Archive: プレゼンをアーカイブ\nBlenderワークショップ\nCameraManモードを使おう\nDiscord連携, 公式Discordを検索\nExporterはまだまだ未完\nFirefoxを使いこなそう\nGithub Issuesを検索しよう \nHLSサーバーを立てよう\nIssuesでコミュニケーション\nJSXでUIをカスタマイズ！\nKids Workshop:子供でも使える\nLinearで勝利、PannerNode。\nMozilla版をうまく使おう",
+        "Node.js環境と仲良くなろう\nOBSを使いこなそう\nPDFはユーザのDrag&Dropが便利\nQuest2は快適\nReady Player Meでリアルアバター\nSugorokuメソッドで設計する\nTwitchストリームを使いこなせ\nUser Promoteを使いこなせ\nViveShareで熱狂共有,YouTube連携\nWordpressでCORSを解決!\nXRというよりは”VR4.x”会いに行く!\nYouTube共聴は便利だが規約違反\nZoomはスタッフ用に確保せよ"
+      ]
+    },
+    {
+      "slideNumber": 112,
+      "slideId": "g2a49ba30dbc_0_450",
+      "textContent": [
+        "独自ドメイン運用 \u000bHubs-Cloud, Hubs-Ops-AWS",
+        "非常に複雑…でもライセンス込み。\n米国東部（バージニア北部）のc4.largeでホストした場合の価格 $ 0.20 /時間。\u000b※月間$144(以上)で商用利用可能\u000b最新の計算表が公式に提供された(5月末)"
+      ]
+    },
+    {
+      "slideNumber": 113,
+      "slideId": "g2a49ba30dbc_0_458",
+      "textContent": [
+        "Mozilla Hubsサービスを提供するサーバ群",
+        "Hubs-Ops v1.0.20200423002053 EC2x4 (C5.2xlarge)",
+        "NAF\nJanusVR",
+        "[Reticulum] \nAppInstance",
+        "[各ユーザ端末]\nHubsクライアント\nNode.js\nAFrame(Three.js)",
+        "セッション\nチャット\nシーン\nアバター\n動画キャッシュ\nユーザテーブル",
+        "ユーザ間通信\n3Dモーション\nWebRTC会話",
+        "[CloudFlare]\nCDNキャッシュ\nWorkersで実装\nHubsAdminで設定",
+        "アプリログ(有料)\nSentry.io\nデバッグ用途",
+        "アプリログ\nGoogle Analytics\nユーザKPI観測",
+        "Telemetry.js:設定はHubs-Admin画面内でAPIへのタグやエンドポイントを設定",
+        "AWS側の機能利用\n[S3]メディア保管 [ELB]ロードバランサー\n[SES]メール発信\n[Lambda] botomatic Botなど\n[Route53]ドメイン管理",
+        "Discord連携",
+        "Discordのユーザ認証や現在のルーム内のユーザ名取得、タイマー機能などWebAPIでの連携しやすそうなコマンドが実装されている。ボットサーバ経由で通信はクライアントのdiscord.jsのみで行っているが、Reticulmへの問い合わせも実現している。",
+        "Farspark",
+        "[Spoke]\nシーンエディタ",
+        "Hubs-Admin",
+        "Lib-Hubs",
+        "[Reticulum] \nStreaming",
+        "postgrest_server = \"https://hubs.local:3000\"",
+        "[cors_proxy_server]\n\"cors-proxy-dev.reticulum.io\"",
+        "[thumbnail_server]\nnearspark-dev.reticulum.io",
+        "Reticulumは hubs.vr.gree.netのバックエンドとして機能 vr-internal.gree.netもしくはdev.reticulum.io\nnon_cors_proxy_domains = \"hubs.local,dev.reticulum.io\"",
+        "★この図で描き切れていないもの\n・WebSocketでの通信\n・NAFとJanusの詳細\u000b・WebRTC, STUN, ICE",
+        "サムネを作るだけのサーバ NearSpark",
+        "複数構成になった時の影\nセキュリティ設定注意",
+        "EC2が2台構成",
+        "PostgreSQL\nAWS Aurora database"
+      ]
+    },
+    {
+      "slideNumber": 114,
+      "slideId": "g2a49ba30dbc_0_499",
+      "textContent": [
+        "TIPS - オブジェクト操作編",
+        "デスクトップはTABでサブメニュー → pin/un-pinで固定、拡大縮小も可能。\n物体を「ホールドした状態」(マウスボタン押込)＋矢印/WASDで水平移動できる\nとりあえず画面へのドロップ or Ctrl+Vしてみる。\u000b・URL →プレビュー画像の貼り付け＋URLへのリンク\u000b・PDF → 自動でPDFリーダー。　・MPEG → 動画プレイヤー\u000b・HubsのURL→ポータル\n・動画同期再生\u000b・デスクトップ共有や\u000b　Webカメラも\u000b・チャットコマンド\u000b・Ctrl+Enterで画像化"
+      ]
+    },
+    {
+      "slideNumber": 115,
+      "slideId": "g2a49ba30dbc_0_505",
+      "textContent": [
+        "Spoke\nhttps://hubs.mozilla.com/spoke/",
+        "完全にWebブラウザで動作するHubs専用シーンエディタ。Unityスタイル。"
+      ]
+    },
+    {
+      "slideNumber": 116,
+      "slideId": "g2a49ba30dbc_0_512",
+      "textContent": [
+        "Spoke: 基本Elements",
+        "モデル：GLBモデル  コライダー：Box, Ground Plane　\u000bライト：Ambient, Directional, Hemisphere, Spot, Point\u000bナビゲーション：Spawn Point, Way Point\u000bテクスチャ：静止画像, Video (ムービーテクスチャ)\u000bその他：Trigger Volume, Link, パーティクル, 水, 音源,"
+      ]
+    },
+    {
+      "slideNumber": 117,
+      "slideId": "g2a49ba30dbc_0_519",
+      "textContent": [
+        "Spoke",
+        "Rock Kit, Architecture Kit\nレゴブロック感覚で岩/建築物を作れる。マテリアルもプルダウンで選択。"
+      ]
+    },
+    {
+      "slideNumber": 118,
+      "slideId": "g2a49ba30dbc_0_526",
+      "textContent": [
+        "外部検索エンジンの利用",
+        "Sketchfab, Google Poly, Bing Images\nキーワード検索で利用可能なモデルや画像をインポートできる。ライツも表記。\nTenor GIFs 同様にキーワードでGIFを探してくる。日本語検索OK。"
+      ]
+    },
+    {
+      "slideNumber": 119,
+      "slideId": "g2a49ba30dbc_0_534",
+      "textContent": [
+        "動画: Bing Videos",
+        "YouTube他、Hubsで直接取り込んで再生できる動画を検索できる。\nライセンスに関しては不明ですが、上映会イベントにはいいかも。\n最近のアップデートはこちら\nhttps://hubs.mozilla.com/spoke/whats-new"
+      ]
+    },
+    {
+      "slideNumber": 120,
+      "slideId": "g2a49ba30dbc_0_541",
+      "textContent": [
+        "Performance Checker"
+      ]
+    },
+    {
+      "slideNumber": 121,
+      "slideId": "g2a49ba30dbc_0_549",
+      "textContent": [
+        "Mozilla Hubsによる「バーチャルシブヤ」\nhttps://hubs.mozilla.com/VHJKD77/",
+        "なお、この部屋で再生される動画の音声は白井の音声合成で生成しています。",
+        "もちろん建物だけでは「シブヤ感」は出ない!!\nそこで生きる人々が必要。"
+      ]
+    },
+    {
+      "slideNumber": 122,
+      "slideId": "g2a49ba30dbc_0_556",
+      "textContent": [
+        "VRStudioLab-Shibuya",
+        "https://hubs.mozilla.com/scenes/TfJWuws"
+      ]
+    },
+    {
+      "slideNumber": 123,
+      "slideId": "g32161509555_0_1036",
+      "textContent": [
+        "Hubs関連資料",
+        "https://www.slideshare.net/slideshow/webxr-in-cedec2022-mozilla-hubs/253835091\n\n\nWebメタバース開発から運用コスト最小化まで #CEDEC2022 発表体験記｜REALITY @reality_jp #note https://note.com/reality_eng/n/n6f6f58caa7da\n\n\nhttps://www.weblic.co.jp/service/metaverse/"
+      ]
+    },
+    {
+      "slideNumber": 124,
+      "slideId": "g32161509555_0_1041",
+      "textContent": []
+    },
+    {
+      "slideNumber": 125,
+      "slideId": "g32161509555_0_1047",
+      "textContent": [
+        "ポストコロナ。"
+      ]
+    },
+    {
+      "slideNumber": 126,
+      "slideId": "g32161509555_0_1052",
+      "textContent": [
+        "Mozilla Hubsサポート終了。"
+      ]
+    },
+    {
+      "slideNumber": 127,
+      "slideId": "g32161509555_0_1058",
+      "textContent": [
+        "しかし\nオープンソースは\n生き続ける！"
+      ]
+    },
+    {
+      "slideNumber": 128,
+      "slideId": "g32161509555_0_1063",
+      "textContent": []
+    },
+    {
+      "slideNumber": 129,
+      "slideId": "g32161509555_0_1069",
+      "textContent": [
+        "NTT版「DOOR.NTT」"
+      ]
+    },
+    {
+      "slideNumber": 130,
+      "slideId": "g32161509555_0_1075",
+      "textContent": [
+        "課題3：締切は12/26 22時とします",
+        "課題3-1：画像生成AIについての感想・自分の理解\n文章で説明できない場合にはGoogle SlidesのURLで補っても構いません\n課題3-2：作品紹介\n自己紹介スライドの1ページ目に画像を貼り、プロンプトともに解説（2ページ目以降）\n画像生成AIで作った作品のプロンプト、コダワリをスライドで説明してみよう。\n課題3-3：「DOOR.NTT」\nアカウント作成して「お気に入りのルーム」を最低1つ紹介しよう\nhttps://door.ntt/web/recommends/index.html\n理由とともにアクセスできるURLを報告。実際に訪問して、お気に入りに登録しておいてください。\n課題3-4：Level 1（Skip可）\n「展示ルームを作ってみよう－入門編 全4回」を終了させて完成したルームのURLを報告\nhttps://door.ntt/web/tutorial_create/tutorial/introduction01.html\n課題3-5：Level 2 （Skip可）\n「ライブ会場をつくってみよう－中級編 全3回」 を終了させて完成したルームのURLを報告\nhttps://door.ntt/web/tutorial_create/tutorial/intermediate01.html\n課題3-6：Level 3（必須）\n「オリジナルのルームを作る」上記の知識応用してオリジナルのルームを作ってURLを報告\nhttps://door.ntt/web/tutorial_create/index.html"
+      ]
+    },
+    {
+      "slideNumber": 131,
+      "slideId": "g32161509555_0_1080",
+      "textContent": [
+        "課題4(予習)",
+        "オリジナルのルームがどのような設計になっているのか、上面図のスクリーンショットを使ってスライド資料のURLを報告。もちろん上面図以外のスクリーンショットも使って良い。\n参考資料：論文「Mozilla Hubsを用いたオンラインイベントのWebVR化」の図2\nhttps://msl.dhw.ac.jp/wp-content/uploads/2020/11/DHUJOURNAL2020_P045.pdf\n\n課題3-8：ポスター制作（次回完成で良い）\nスライドでルームへのポスターを作る。作品を体験できるルームのコンセプト、URLやQRを入れる"
+      ]
+    },
+    {
+      "slideNumber": 132,
+      "slideId": "g32213d95ebc_0_0",
+      "textContent": [
+        "[課題4] X(Twitter)で投稿!!",
+        "次回の授業は 1/10 です…フォームの提出期限は1/9夜とします\n(1)自分のHubs/DOOR年賀状を（ポートフォリオとして）完成させる\n(2)ベストなスクリーンショットを撮影して解説とともにGoogle Slidesにまとめる\u000b（自己紹介Slidesの一番先頭のスライドに配置）\n(3)作品を改善したツイートをHubs/DOORのルームURLとともにツイートする\n　・この授業のためだけにTwitterのアカウントを作ってみる\nハッシュタグ「#メタバース年賀状 #DHGSVR24」をつける\n過去の例 #DHGSVR22 メタバース年賀状 \n★気に入ったルームを自分のルームで紹介がてら、リンク接続して構いません。\n\n【次回以降の課題予告】"
+      ]
+    },
+    {
+      "slideNumber": 133,
+      "slideId": "g32213d95ebc_0_12",
+      "textContent": [
+        "X(Twitter)で投稿!!",
+        "画像や動画を最初にいれる。リンクは入れない。\u000bハッシュタグ「#メタバース年賀状 #DHGSVR24」\n元投稿につながるリプライにリンクを入れる。「#メタバース年賀状 #DHGSVR24」\n他の受講生の作品をいいね、RPをする。返信コメントも歓迎。\n「エンゲージがあがる」→「ユーザースコアが上がる」\nタイムラインに上がってくるようにがんばろう\n他者のメタバース作品に感想を書く"
+      ]
+    },
+    {
+      "slideNumber": 134,
+      "slideId": "g32213d95ebc_0_7",
+      "textContent": [
+        "・TwitterとYouTubeのアカウントも作っておこう\n・VRoid Studioをインストールしておく\n・オリジナルVTuberを開発して自己紹介シートを作る(Sheets)\n・自己紹介第一弾ツイートを行う（動画・YouTubeへのリンク等も歓迎）\n・DOOR上に自分のポートフォリオやVTuberギャラリーを作っていく…！"
+      ]
+    },
+    {
+      "slideNumber": 135,
+      "slideId": "g3215ea9db2b_0_761",
+      "textContent": [
+        "キャラクター：その世界に生きる人々",
+        "杉山学長は第1回日本VR学会大会 基調講演でデジハリと「伊達杏子」を紹介(1996)",
+        "昔はキャラクターだけで成立すると\n考えられていた。タレント事務所所属。"
+      ]
+    },
+    {
+      "slideNumber": 136,
+      "slideId": "g3215ea9db2b_0_768",
+      "textContent": [
+        "VTuber設計"
+      ]
+    },
+    {
+      "slideNumber": 137,
+      "slideId": "g3215ea9db2b_0_774",
+      "textContent": [
+        "キャラクターデザイン",
+        "[VTuber 三面図]"
+      ]
+    },
+    {
+      "slideNumber": 138,
+      "slideId": "g3215ea9db2b_0_780",
+      "textContent": [
+        "キャラクターデザイン",
+        "[Pinterest 3面図]"
+      ]
+    },
+    {
+      "slideNumber": 139,
+      "slideId": "g3215ea9db2b_0_786",
+      "textContent": [
+        "https://coconala.com/categories/641?keyword=vtuber%20"
+      ]
+    },
+    {
+      "slideNumber": 140,
+      "slideId": "g3215ea9db2b_0_792",
+      "textContent": [
+        "キャラクターデザインの例：KMNZ by しゅがおさん"
+      ]
+    },
+    {
+      "slideNumber": 141,
+      "slideId": "g3215ea9db2b_0_801",
+      "textContent": [
+        "Vtuber一問一答自己紹介"
+      ]
+    },
+    {
+      "slideNumber": 142,
+      "slideId": "g3215ea9db2b_0_807",
+      "textContent": [
+        "Vtuber一問一答自己紹介",
+        "こちらからテンプレが入手可能",
+        "【自己紹介】Vtuber一問一答自己紹介/オリジナル曲【海月シェル/新人Vtuber】 (43万再生) https://www.youtube.com/watch?v=V4L3YuhCUEY\n【自己紹介】Vtuber一問一答自己紹介【瀬兎一也】　https://www.youtube.com/watch?v=rsQYY1Rs7Q0",
+        "原理的ネットワークメディアアート\u000b「連画プロジェクト」のような展開で\n再生数も伸びていく…"
+      ]
+    },
+    {
+      "slideNumber": 143,
+      "slideId": "g3215ea9db2b_0_816",
+      "textContent": [
+        "インタラクション：",
+        "インタラクションの対称性・非対称性に注目してみよう"
+      ]
+    },
+    {
+      "slideNumber": 144,
+      "slideId": "g3215ea9db2b_0_821",
+      "textContent": [
+        "Lecture 6: \u000b「VTuberを開発する」",
+        "2022/1/5 21:00 ～ 22:30\n情報を自分で入手し、ツールを使って自らの手で3Dキャラクタの詳細設計および動画作品の開発を行う。"
+      ]
+    },
+    {
+      "slideNumber": 145,
+      "slideId": "g3215ea9db2b_0_826",
+      "textContent": [
+        "VTuberキャラクターの設計ポイント",
+        "あいさつ　世界観の振れ幅　身長　職業\n\n表情の振れ幅 笑い｛うれしい～微笑～大笑い｝，残念・悲しい，恥ずかしい\n\nエンゲージメント（何がユーザとの接点になっているか？）\n例：Twitterフォローしてください、YouTube購読してください\n\nコミュニケーションの設計（ゴールではない）\n対 若い男性：どういう人？\u000b対 若い女性：\u000b(例)視聴者の皆さんを「ドクター」と呼ぶ（というルール）\u000bVTuberの場合はこのような世界観や対人関係をバーチャルにする遊びが成立\n\n専門家であれば「どのへんのユーザを相手にするのか？」",
+        "[目標]\n・自己紹介動画\n・Twitter\n・YouTube\n・ツイートする\n#DHGS2021VR\n他者と絡んでみる\nhoge+piyo@gmail.com"
+      ]
+    },
+    {
+      "slideNumber": 146,
+      "slideId": "g3215ea9db2b_0_832",
+      "textContent": [
+        "課題6-2：VTuberキャラクター設計（動画・SNSへの放流）",
+        "・キャラクター名\n・あいさつ・自己紹介テキスト\n　VTuber設計シートのURL：※前回と同じURLを推奨します！Google Spreadsheetでキャラクター設計シートを起こしてakihiko.shirai@dhw.ac.jp に「閲覧者(コメント可)」で共有、ほかの人が見れるように dhw.ac.jp 内に共有すること。その共有URLをフォームにて概要とともに報告する。\n・Twitterの自己紹介URL\u000b　Twitterにアカウントを作成し、自己紹介動画を投稿(秒数制限に注意)。そのURLを報告する。\u000b※Twitterハッシュタグ #DHGS2021VR を忘れずにつけること \n・YouTubeチャンネルのURL\u000b　YouTubeチャンネルを開設し、自己紹介動画を投稿。そのURLを報告する。\n・作ってみた感想\u000b　コンセプト・提案にあたり難しいと思った点・作り手の思い・気づきなど"
+      ]
+    },
+    {
+      "slideNumber": 147,
+      "slideId": "g3215ea9db2b_0_837",
+      "textContent": []
+    },
+    {
+      "slideNumber": 148,
+      "slideId": "g3215ea9db2b_0_843",
+      "textContent": []
+    },
+    {
+      "slideNumber": 149,
+      "slideId": "g3215ea9db2b_0_849",
+      "textContent": [
+        "【参考・声について】",
+        "ボイスチェンジャー「転生こえうらない」\nhttps://vr.gree.net/lab/vc/\nこれはうちのラボで作ったスマホやPCブラウザ（Mac）で使えるボイスチェンジャーです。\n\nWindowsであれば「恋声」が気軽に使えます\nhttp://koigoemoe.g2.xrea.com/koigoe/koigoe.html\n\n完成度の高いツールとしては「VoiceMod」\nhttps://www.voicemod.net/ja/\n\nところで、誰もが自分の声を好きじゃないはず（骨を伝って来る音と、録音する声は違う）\nただ録音したり配信したりして「いい声だね」って言われてはじめて気づくこともあると思います。\nこれは「他者との関係」として興味深いところです（私がライブエンタメを研究している一つの理由です）\n自分で何か気づくところがあれば今後の活動に生かしてください。"
+      ]
+    },
+    {
+      "slideNumber": 150,
+      "slideId": "g3215ea9db2b_0_854",
+      "textContent": [
+        "「転生こえうらない」",
+        "https://vr.gree.net/lab/vc/"
+      ]
+    },
+    {
+      "slideNumber": 151,
+      "slideId": "g3215ea9db2b_0_860",
+      "textContent": [
+        "「恋声」",
+        "http://koigoemoe.g2.xrea.com/koigoe/koigoe.html"
+      ]
+    },
+    {
+      "slideNumber": 152,
+      "slideId": "g3215ea9db2b_0_866",
+      "textContent": []
+    },
+    {
+      "slideNumber": 153,
+      "slideId": "g3215ea9db2b_0_872",
+      "textContent": [
+        "コミュニケーション",
+        "インタラクションは機能、\nコミュニケーションはその結果うまれるもの。\n\nVTuber一問一答自己紹介のようなものもコミュニケーションの姿"
+      ]
+    },
+    {
+      "slideNumber": 154,
+      "slideId": "g3215ea9db2b_0_877",
+      "textContent": [
+        "エンゲージメント(絆)",
+        "どんな絆がうまれるか？\n\nARP, LTVについても調べてみよう"
+      ]
+    },
+    {
+      "slideNumber": 155,
+      "slideId": "g3215ea9db2b_0_882",
+      "textContent": [
+        "シラバスより"
+      ]
+    },
+    {
+      "slideNumber": 156,
+      "slideId": "g3215ea9db2b_0_888",
+      "textContent": [
+        "第3回講義[2021/12/24-1/3] 課題",
+        "[課題#3] Mozilla Hubsを用いて「年賀状・新年会サイトを作ってみる」",
+        "課題提出URL http://j.mp/DHGSVR21 \n（URLとフォームは同じ、課題は毎回異なります。印象・感想はFBシートと同じで構いません）",
+        "[ねらい]Scene Editor[Spoke]を使ってメタバースを作る体験をする。\nhttps://hubs.mozilla.com/spoke/\nできるだけオリジナルの素材を使う(CC0など)＝危ない素材は非公開でお願いします\n\n以下の3つのURLと「やってみた感想」を提出する\n(1)シーンの設計:タイトルと見どころを説明したGoogle SlidesのURL\u000b(2)体験可能なルームのURL(いわゆるランディングURL)\n(3)Twitter #DHGSVR21 #メタバース年賀状 で\u000b　放流したURL(新人VTuber準備中アカウント歓迎)\n(4)やってみた感想\n\n以上を2022/1/3までにGoogleFormで報告する。",
+        "参考(VRStudioLabによる作)\nhttps://vr.gree.net/lab/demo/hubs/\nhttps://vr.gree.net/lab/vtc/vtc20/\nhttps://hubs.mozilla.com/vyKcJkk/kws2020\nhttps://hubs.mozilla.com/scenes/BnvTUzh\nhttps://hubs.mozilla.com/scenes/TfJWuws\n昨年作品「モー烈感謝2021」小林英恵さん \u000bhttps://hubs.mozilla.com/wFvEB67\nその後のポートフォリオ「マチコの部屋 2020」　https://hub.link/6d2eLJ5"
+      ]
+    },
+    {
+      "slideNumber": 157,
+      "slideId": "g3215ea9db2b_0_896",
+      "textContent": [
+        "「モー烈感謝2021」小林英恵 (白井作成サンプル)",
+        "2020の感謝を込めて近況報告と2021の抱負を入れました。ベースは「Gathering Hall」\u000b大きな牛と桜、松、竹、虹のオプジェクトで、このシーン全体を生花のようにアートにしました。",
+        "https://hubs.mozilla.com/wFvEB67",
+        "最低1枚のスライドで説明。行きたくなるような説明やスクリーンショットを盛り込む。ハイパーリンク埋め込みは可。ポストカード風に「あけましておめでとうございます」など入れていただいてもかまいません。\n2ページ目以降を追加したい人は上面図やゾーニング、設計意図やイメージを膨らませるための資料画像なども加えておくとよいですね。"
+      ]
+    },
+    {
+      "slideNumber": 158,
+      "slideId": "g3215ea9db2b_0_906",
+      "textContent": [
+        "本日紹介したURLs",
+        "3D Kaleido Face\nhttps://3d.kalidoface.com/\n\n#バーチャル学会 #メタバース #VRChat\n【LIVE】バーチャル学会2021 ポスターセッション完全生中継【学術メタバース】\nhttps://www.youtube.com/watch?v=wdaynfu59HE\nバーチャル学会2021：ソーシャルVR国勢調査 2021 - ねむ＆Mila(B5-15)\nhttps://note.com/nemchan_nel/n/ne0ebf797984c\n\n[伊達杏子 dk-96]\nREALITY: We can be whoever we want - Avatar driven metaverse service and UX R&D #SIGGRAPHAsia2021\nhttps://www.slideshare.net/vrstudiolab/siggraph-asia-2021-birds-of-a-feather\nデジタルハリウッド大学 大学院 デジタルコンテンツ研究科\n「3つのポリシー」※特にディプロマポリシーに注目\nhttps://gs.dhw.ac.jp/profile/about/3policy/\n\nhttp://vr.gree.net/lab/#papers"
+      ]
+    },
+    {
+      "slideNumber": 159,
+      "slideId": "g3215ea9db2b_0_912",
+      "textContent": [
+        "歌声音声合成「Synthesizer V」",
+        "もはや人間と区別がつかない次元に。多言語で歌う機能も搭載したSynthesizer Vの破壊力\nhttps://www.dtmstation.com/archives/54473.html\n\nブレスだけ別のWAVで保存できるのか…多言語も。Kanru Huaさんの母国語が中国語だから、ってのもすごい。"
+      ]
+    },
+    {
+      "slideNumber": 160,
+      "slideId": "g3215ea9db2b_0_917",
+      "textContent": [
+        "VKET CLOUD",
+        "https://www.hikky.life/vketcloud"
+      ]
+    },
+    {
+      "slideNumber": 161,
+      "slideId": "g3215ea9db2b_0_923",
+      "textContent": [
+        "https://door.ntt/",
+        "NTTグループによるHubs活用"
+      ]
+    },
+    {
+      "slideNumber": 162,
+      "slideId": "g3215ea9db2b_0_929",
+      "textContent": [
+        "地域共創型XRまちづくり「PARALLEL CITY」by DNP",
+        "https://www.dnp.co.jp/biz/solution/products/detail/10159318_1567.html"
+      ]
+    },
+    {
+      "slideNumber": 163,
+      "slideId": "g3215ea9db2b_0_937",
+      "textContent": [
+        "PARALLEL CITY「札幌北三条広場」",
+        "https://sapporo-kita-3jo.parallel-city.jp/"
+      ]
+    },
+    {
+      "slideNumber": 164,
+      "slideId": "g3215ea9db2b_0_943",
+      "textContent": [
+        "PARALLEL CITY宮下公園\u000b「アルスくんとテクネちゃん」",
+        "https://shibuya-miyashitapark.parallel-city.jp/project/parallell-art-park/#\nhttps://twitter.com/arstotechne"
+      ]
+    },
+    {
+      "slideNumber": 165,
+      "slideId": "g3215ea9db2b_0_949",
+      "textContent": [
+        "https://spatial.io/",
+        "WebVRメタバース、写真からのアバター（足なし）、NFTなどを装備したエキスポ（展示会、イベント、ギャラリー、文化、体験用）システム「Spatial」"
+      ]
+    },
+    {
+      "slideNumber": 166,
+      "slideId": "SLIDES_API1037957426_0",
+      "textContent": [
+        "═══════════════════════════════════\n\n[DHGSVR26] テクノロジー特論D（人工現実）\n\n═══════════════════════════════════"
+      ]
+    },
+    {
+      "slideNumber": 167,
+      "slideId": "SLIDES_API1037957426_4",
+      "textContent": [
+        "[DHGSVR26] テクノロジー特論D（人工現実）",
+        "[11/27] 第1回 人工現実概論\n[12/4] 第2回 生成AIの技術と表現\n[12/11] 第3回 Webポートフォリオ制作\n[12/18] 第4回 コーディングエージェント入門\n[1/8] 第5回 インタラクティブUX設計\n[1/15] 第6回 アバターキャラクター設計\n[1/22] 第7回 VTuberを発信する\n[1/29] 第8回 超（meta）メタバース"
+      ]
+    },
+    {
+      "slideNumber": 168,
+      "slideId": "SLIDES_API1037957426_9",
+      "textContent": [
+        "第1回\n2026年11月27日（金）\n8限 21:00～22:30",
+        "人工現実概論",
+        "AR/VR/メタバース/生成AIの技術史を俯瞰し、「頭の中の現実を作り出す能力」について講義する。"
+      ]
+    },
+    {
+      "slideNumber": 169,
+      "slideId": "SLIDES_API1037957426_15",
+      "textContent": [
+        "第2回\n2026年12月4日（金）\n8限 21:00～22:30",
+        "生成AIの技術と表現",
+        "画像生成AIの歴史と基礎技術について講義し、自己紹介用の画像素材を制作する。"
+      ]
+    },
+    {
+      "slideNumber": 170,
+      "slideId": "SLIDES_API1037957426_21",
+      "textContent": [
+        "第3回\n2026年12月11日（金）\n8限 21:00～22:30",
+        "Webポートフォリオ制作",
+        "VibeCoding時代のWebサイト制作をGitHubで実装体験する。"
+      ]
+    },
+    {
+      "slideNumber": 171,
+      "slideId": "SLIDES_API1037957426_27",
+      "textContent": [
+        "第4回\n2026年12月18日（金）\n8限 21:00～22:30",
+        "コーディングエージェント入門",
+        "AIを活用したコーディング手法について講義し、対話型開発の基礎を体験する。"
+      ]
+    },
+    {
+      "slideNumber": 172,
+      "slideId": "SLIDES_API1037957426_33",
+      "textContent": [
+        "第5回\n2026年1月8日（金）\n8限 21:00～22:30",
+        "インタラクティブUX設計",
+        "ユーザー体験設計とFTUEの言語化を通して体験設計を経験する。"
+      ]
+    },
+    {
+      "slideNumber": 173,
+      "slideId": "SLIDES_API1037957426_39",
+      "textContent": [
+        "第6回\n2026年1月15日（金）\n8限 21:00～22:30",
+        "アバターキャラクター設計",
+        "VTuber/PNGTuber/AITuberの表現技術を調査し、オリジナルキャラクターを設計する。"
+      ]
+    },
+    {
+      "slideNumber": 174,
+      "slideId": "SLIDES_API1037957426_45",
+      "textContent": [
+        "第7回\n2026年1月22日（金）\n8限 21:00～22:30",
+        "VTuberを発信する",
+        "動画制作とSNS発信技術について講義し、アバター動画を制作して発信する。"
+      ]
+    },
+    {
+      "slideNumber": 175,
+      "slideId": "SLIDES_API1037957426_51",
+      "textContent": [
+        "第8回\n2026年1月29日（金）\n8限 21:00～22:30",
+        "超（meta）メタバース",
+        "本講義で学んだ技術と制作物を振り返り、社会実装について総合的にまとめる。"
+      ]
+    }
+  ]
+}
