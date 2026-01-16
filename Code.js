@@ -803,3 +803,79 @@ function setupSlackWebhook(webhookUrl) {
 function testFormSubmit() {
   onFormSubmit({});
 }
+
+// ========================================
+// シラバス書き込み関数
+// ========================================
+
+/**
+ * シラバス26を更新する
+ * GASエディタから手動実行
+ */
+function updateSyllabus26() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  const sheet = ss.getSheetByName('シラバス26');
+
+  if (!sheet) {
+    console.error('シラバス26シートが見つかりません');
+    return;
+  }
+
+  // 更新データ
+  const updates = {
+    '授業概要': '「人工現実」とは頭の中にある現実を人工的に作り出す能力である。本講義ではAR/VR/メタバースや生成AIの技術史を俯瞰した上で、コーディングエージェントを活用したインタラクティブコンテンツ制作、アバターを使った動画制作と発信を実践する。毎週の課題を通して想像を実装し社会に共有する力を習得する。',
+
+    '成績評価方法と基準': '5段階評価（S〜D）\n単位取得の前提条件：毎回の課題をすべて提出していること。\n（1）最終レポート：技術史理解と社会実装への考察（30%）\n（2）アバター動画制作および発信（30%）\n（3）インタラクティブコンテンツの制作とデプロイ（30%）\n（4）授業への貢献：発言、相互評価、知識共有（10%）',
+
+    '履修条件と留意事項': '本講義は演習としてSNSやクラウドサービスをアカウント作成から行い、双方向コミュニケーションおよび発信活動を行う。これらの通信環境や利用規約に同意できない場合は本講義の履修を断念するか、代替手段を担当教員に事前提案の上履修すること。',
+
+    '教科書': 'なし',
+
+    '参考文献': 'AIとコラボして神絵師になる 論文から読み解くStable Diffusion／白井暁彦／インプレスR&D／ISBN：978-4295601388\nバーチャルリアリティ学／日本バーチャルリアリティ学会編／コロナ社／ISBN：978-4904490051'
+  };
+
+  // B列の全データを取得
+  const lastRow = sheet.getLastRow();
+  const bColumn = sheet.getRange('B1:B' + lastRow).getValues();
+
+  // 各項目を更新
+  for (const [fieldName, value] of Object.entries(updates)) {
+    for (let i = 0; i < bColumn.length; i++) {
+      if (bColumn[i][0] === fieldName) {
+        const row = i + 1;
+        sheet.getRange(row, 3).setValue(value); // C列に書き込み
+        console.log(`更新: ${fieldName} (行${row})`);
+        break;
+      }
+    }
+  }
+
+  console.log('シラバス26の更新が完了しました');
+}
+
+/**
+ * シラバスの特定項目を更新（汎用）
+ */
+function updateSyllabusField(sheetName, fieldName, value) {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  const sheet = ss.getSheetByName(sheetName);
+
+  if (!sheet) {
+    console.error(`${sheetName}シートが見つかりません`);
+    return false;
+  }
+
+  const lastRow = sheet.getLastRow();
+  const bColumn = sheet.getRange('B1:B' + lastRow).getValues();
+
+  for (let i = 0; i < bColumn.length; i++) {
+    if (bColumn[i][0] === fieldName) {
+      sheet.getRange(i + 1, 3).setValue(value);
+      console.log(`更新: ${sheetName} - ${fieldName}`);
+      return true;
+    }
+  }
+
+  console.error(`${fieldName}が見つかりません`);
+  return false;
+}
