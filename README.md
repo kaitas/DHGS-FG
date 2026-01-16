@@ -110,7 +110,8 @@ clasp push -f
 | ファイル/情報 | 説明 | 対応 |
 |-------------|------|------|
 | `.clasp.json` | スクリプトID | `.gitignore`で除外済み |
-| APIキー | GAS認証用 | ScriptPropertiesに保存、コードに埋め込まない |
+| APIキー | GAS認証用 | ScriptPropertiesに保存（`API_KEY`） |
+| Slack Webhook URL | Slack投稿用 | ScriptPropertiesに保存（`SLACK_WEBHOOK_URL`） |
 | 個人情報 | 学生データ | APIでアクセス不可、手動でも取り扱い注意 |
 
 ### デプロイ時の注意
@@ -126,9 +127,13 @@ GASウェブアプリとしてデプロイ済み。
 ### エンドポイント
 
 ```
-GET ?key=API_KEY&action=all    # 全シートメタデータ取得
-GET ?key=API_KEY&action=list   # 許可シート一覧
-GET ?key=API_KEY&action=read&sheet=シラバス23  # シート内容取得
+GET ?key=API_KEY&action=all                    # 全シートメタデータ取得
+GET ?key=API_KEY&action=list                   # 許可シート一覧
+GET ?key=API_KEY&action=read&sheet=シラバス23   # シート内容取得（通常形式）
+GET ?key=API_KEY&action=readSyllabus&sheet=シラバス25  # シラバス24/25/26形式
+GET ?key=API_KEY&action=forms                  # リンクされたフォーム一覧
+GET ?key=API_KEY&action=formStructure&formId=FORM_ID   # フォーム構造取得
+GET ?key=API_KEY&action=slides&slideId=SLIDE_ID        # スライド内容取得
 ```
 
 ### 使用例
@@ -137,9 +142,40 @@ GET ?key=API_KEY&action=read&sheet=シラバス23  # シート内容取得
 # 日本語パラメータはURLエンコードが必要
 curl -sL --get "https://script.google.com/macros/s/.../exec" \
   --data-urlencode "key=YOUR_API_KEY" \
-  --data-urlencode "action=read" \
-  --data-urlencode "sheet=シラバス23"
+  --data-urlencode "action=readSyllabus" \
+  --data-urlencode "sheet=シラバス25"
 ```
+
+## フォーム送信時の自動処理
+
+フォーム送信時に以下の処理を自動実行します。
+
+### 機能
+
+1. **Slack通知**: 課題提出情報をSlackチャンネルに投稿
+2. **成績登録**: 管理シート（25課題）に提出日時を記録
+
+### セットアップ
+
+1. **Slack Webhook URLの設定**（GASスクリプトエディタで実行）:
+   ```javascript
+   setupSlackWebhook('https://hooks.slack.com/services/...');
+   ```
+
+2. **トリガーの設定**:
+   - GASスクリプトエディタ → トリガー → トリガーを追加
+   - 関数: `onFormSubmit`
+   - イベントソース: スプレッドシートから
+   - イベントタイプ: フォーム送信時
+
+### 設定項目（getFormConfig関数内）
+
+| 項目 | 説明 |
+|------|------|
+| SLACK.WEBHOOK_URL | ScriptPropertiesから取得（setupSlackWebhookで設定） |
+| SLACK.CHANNEL | 投稿先Slackチャンネル |
+| SHEET.SUBMISSION_TAB_NAME | フォーム回答シート名（DHGSVR25） |
+| SHEET.GRADEBOOK_TAB_NAME | 成績管理シート名（25課題） |
 
 ## ファイル構成
 

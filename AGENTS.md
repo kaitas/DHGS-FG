@@ -62,16 +62,41 @@ API_KEY="387dce93-d339-463a-9dcb-8b88da377fe6"
 # 全シートメタデータ取得
 curl -sL "$BASE_URL?key=$API_KEY&action=all"
 
-# シラバス内容取得（日本語はURLエンコード必須）
+# シラバス内容取得（通常形式）
 curl -sL --get "$BASE_URL" \
   --data-urlencode "key=$API_KEY" \
   --data-urlencode "action=read" \
   --data-urlencode "sheet=シラバス23"
+
+# シラバス24/25/26形式専用（構造化JSON）
+curl -sL --get "$BASE_URL" \
+  --data-urlencode "key=$API_KEY" \
+  --data-urlencode "action=readSyllabus" \
+  --data-urlencode "sheet=シラバス25"
+
+# リンクされたフォーム一覧
+curl -sL "$BASE_URL?key=$API_KEY&action=forms"
+
+# フォーム構造取得
+curl -sL --get "$BASE_URL" \
+  --data-urlencode "key=$API_KEY" \
+  --data-urlencode "action=formStructure" \
+  --data-urlencode "formId=FORM_ID"
+
+# スライド内容取得（許可されたスライドのみ）
+curl -sL --get "$BASE_URL" \
+  --data-urlencode "key=$API_KEY" \
+  --data-urlencode "action=slides" \
+  --data-urlencode "slideId=115gBQJ9xHQ0_TPVZEtjtfhhVxCbP528rVOpTl-WddC0"
 ```
 
 ### 利用可能なシート（ホワイトリスト）
 
 - シラバス21, シラバス22, シラバス23, シラバス24, シラバス25, シラバス26
+
+### 許可されたスライドID
+
+- `115gBQJ9xHQ0_TPVZEtjtfhhVxCbP528rVOpTl-WddC0` (DHGSVR25-講義準備)
 
 ## シラバス作成ガイドライン
 
@@ -142,3 +167,37 @@ curl -sL "$BASE_URL?key=$API_KEY&action=all"
 - 個人情報を含むシートへのアクセスを追加しない
 - 書き込み機能を追加する場合は認証を強化
 - コードはこのリポジトリで管理、GASエディタで直接編集しない
+
+## フォーム送信時の自動処理
+
+フォーム送信時に `onFormSubmit()` がトリガーされ、以下を実行する：
+
+1. **Slack通知**: 課題提出情報を指定チャンネルに投稿
+2. **成績登録**: 管理シート（25課題）に提出日時を記録
+
+### 設定方法
+
+1. Slack Webhook URLをScriptPropertiesに設定（GASエディタで実行）:
+   ```javascript
+   setupSlackWebhook('https://hooks.slack.com/services/...');
+   ```
+
+2. トリガー設定（GASエディタ）:
+   - トリガーを追加 → `onFormSubmit` → スプレッドシートから → フォーム送信時
+
+### 設定項目
+
+`getFormConfig()` 関数内で以下を設定：
+
+| 項目 | 現在の値 |
+|------|---------|
+| SLACK.CHANNEL | `2025_4q_金8_テクノロジー特論d_人工現実` |
+| SHEET.SUBMISSION_TAB_NAME | `DHGSVR25` |
+| SHEET.GRADEBOOK_TAB_NAME | `25課題` |
+
+### 年度更新時の作業
+
+新年度が始まったら：
+1. `getFormConfig()` のシート名を更新（例: `DHGSVR26`, `26課題`）
+2. Slackチャンネル名を更新
+3. 管理シートに新年度の学生IDを追加
