@@ -1,0 +1,617 @@
+{
+  "title": "人工現実 課題提出 bit.ly/DHGSVR",
+  "description": "DHGSVR25 テクノロジー特論D(人工現実) 課題提出フォームです\n毎回同じURLを使用する予定です。\n----\n\n人工現実 課題提出 j.mp/DHGSVR　dhw.ac.jp ドメインのみ\n\nメールアドレスは不正な入力を防ぐ目的で設定しています。\n可能な限り dhw.ac.jp のメールアドレスを使ってください。\n\n■Google Slidesは 提出先ドライブ へ提出してください(第1-2回の課題を提出した人のみアクセス可能)。他の学生の作品を壊さない・消さないこと。\nコメントで白井（akihiko.shirai@dhw.ac.jp）を割り当ていただければ、コメントいたします（時間があれば）。\n\n講義：金曜日 8限 21:00 ～ 22:30 \n提出：(基本的に)水曜日 23時59分\n\n★次回講義以降を「遅延」として扱います（大幅な減点はしない予定ですが、提出そのものは単位取得にはほぼ必須になります）。また、課題を出すことで理解が深まる設計なのでご協力よろしくお願いいたします。\n\n人工現実 課題提出 bit.ly/DHGSVR\n\n【全体を通した課題の予習】(時間順)\n\n（4）授業への貢献（授業内容レポートのGoogleSlides、Slack内やTwitterへの共有、受講者間の知識・感想の展開）（10%）\n（3）メタバース年賀状の制作および評価（30%）\n　AITuber Kit.  https://github.com/tegnike/aituber-kit 　https://aituberkit.com/\n（1）「最終課題」令和のメタバース、クリエイティブAIを含めた歴史俯瞰・ポートフォリオとなるスライドレポート（30%）\n（2）VTuberによる動画制作（30%）\n・TwitterとYouTubeのアカウントも作っておこう\n・VRoid Studioをインストールしておく\n　VROIDをまじめに学びたい人向けのおすすめ本　【PDF版】3Dマイキャラメイキング VRoidでキャラを作ろう！ - 蒼空の下の市場 BOOTH店/aozora no sita no sijou　Amazon版\n・オリジナルVTuberを開発して自己紹介シートを作る(Sheets)\n・自己紹介第一弾ツイートを行う（動画・YouTubeへのリンク等も歓迎）\n---\n#5 課題提出フォームを準備中→#5は12/29ごろまでにオープン予定→1/2公開しました(遅くなりました)\n1/7までにForm提出 人工現実 課題提出 bit.ly/DHGSVR\n①じぶんのNewYear URL(GitHub/Vercel/独自ドメイン...)\n②FTUEのためのガイドを1行でも（見て欲しいところ）\n③他の受講生のサイトで、気になったURLを紹介（早く出したほうが🉐？）\nhttps://akihiko.shirai.as/DHGSVR/DHGSVR25/\n④その理由\n⑤VTuberを発信するSNS(YouTuber/TwitterのURL)見どころ録画..\n\n",
+  "id": "1pn6aehi-wX_Zw5bW7UzrJfE6VIhLsYrxyrHqS46eYx0",
+  "publishedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeUOfSo_-VvRvY3TRC2grt-ooVDDcTIphuKNWyu4aASomHltA/viewform",
+  "itemCount": 71,
+  "items": [
+    {
+      "id": 1656179519,
+      "title": "学籍番号",
+      "type": "LIST",
+      "helpText": "該当する番号がない場合は「not found」を選択し、備考欄でお伝えください。",
+      "choices": [
+        "not found",
+        "G211TG2033",
+        "G231TG2020",
+        "G241TG2021",
+        "G241TG2042",
+        "G241TG2048",
+        "G241TG2052",
+        "G241TG2054",
+        "G241TG2055",
+        "G251TG2011",
+        "G251TG2014",
+        "G251TG2016",
+        "G251TG2021",
+        "G251TG2025",
+        "G251TG2030",
+        "G251TG2034",
+        "G251TG2035",
+        "G251TG2036",
+        "G251TG2037",
+        "G251TG2038",
+        "G251TG2045",
+        "G251TG2047",
+        "G251TG2055",
+        "G251TG2069"
+      ]
+    },
+    {
+      "id": 343782605,
+      "title": "氏名",
+      "type": "TEXT",
+      "helpText": ""
+    },
+    {
+      "id": 1986028503,
+      "title": "講義回",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "早めに提出してください(目安は次回講義の前前日まで)。重複して提出された場合は後のほうを優先します。",
+      "choices": [
+        "#1(遅延)",
+        "#2(遅延)",
+        "#3(遅延)",
+        "#4(遅延)",
+        "#5(遅延)",
+        "#6"
+      ]
+    },
+    {
+      "id": 1589433298,
+      "title": "【課題#1】",
+      "type": "PAGE_BREAK",
+      "helpText": "一部 Feedback sheetからのコピーで構いません\n"
+    },
+    {
+      "id": 1771314580,
+      "title": "課題",
+      "type": "SECTION_HEADER",
+      "helpText": "[課題#1] VR技術者検定に挑戦！\n\n[課題#1] こちらの模試（http://bit.ly/VRECH29S ）を実施し、初回スコアを半角数字で入力してください。\nこのフォームはQ1-15, Q31-Q77まであります。最高点62点。試験時間 90分 \n"
+    },
+    {
+      "id": 523413057,
+      "title": "1-1 初回スコア",
+      "type": "TEXT",
+      "helpText": ""
+    },
+    {
+      "id": 356301468,
+      "title": "1-2 人工現実に関連ありそうなURL",
+      "type": "TEXT",
+      "helpText": "他の人「人工現実」関するネタに紹介しましょう。Slack内で白井が共有する情報や講義内で紹介したURLへの振り返りや感想でも構いません。"
+    },
+    {
+      "id": 309891607,
+      "title": "1-3 講義中でのニックネームを教えてください",
+      "type": "TEXT",
+      "helpText": "課題で制作する予定のVTuberの名前でも構いません"
+    },
+    {
+      "id": 348581954,
+      "title": "1-4 Google Slidesで自己紹介スライドを1枚作ってください",
+      "type": "TEXT",
+      "helpText": "保存用ドライブは こちら です。アクセス権がない時は dhw.ac.jp のアカウントでまずは1つ作ってみよう\n"
+    },
+    {
+      "id": 1245504749,
+      "title": "1-5 最終課題を意識してスライドを作ってみる",
+      "type": "TEXT",
+      "helpText": "サンプルスライドをコピーして保存用ドライブに 人工現実2025-学籍番号-呼んで欲しい名前 で保存して、以後このファイルを提出用に使います。\n（複数ページになっても構いません）\nメタバース時代における挑戦やキャリアデザインについて、総合的なまとめを行う。特に「人工現実(AR)」でどのような人工的な現実をどのような場に作り出していくのか、ARでどのような現実の不可能を可能にしていくのか、提案力や社会実装力を深めていく\n\n課題としてその該当ページのURLを貼り付け\n"
+    },
+    {
+      "id": 1991053461,
+      "title": "【第2回】VR5.0: 令和のメタバースと人工現実",
+      "type": "PAGE_BREAK",
+      "helpText": "講義ではみなさんの知識や理解をベースに最新の話題を扱いました。\n\n課題：今回の紹介した新技術、過去の研究、自分自身が前回提案したスライドを紐づけて「自分自身がおもしろいとおもったもの・こと・課題」についてスライドを1枚以上 作ってURLで提出してください。\nSlideURL: 前回作った自分のGoogleSlidseに追加して、そのページのURLを記載します\n資料URL: 調査やエビデンスとなる資料（講義内で紹介したものでも可、論文や年代など、さらに深めて自分の仮説を固めていく調査）\n現状、特にアイディアがない人に「オプション課題」を2つ用意しておきます\n・生成AIのこの1年をスライドでまとめてみてください\n・REALITY (https://reality.app) を遊んでみて、配信前と配信後の自分の中の気づきをレポートしてください。\n"
+    },
+    {
+      "id": 2100744561,
+      "title": "[課題#2-1]自分自身がおもしろいとおもったもの・こと・課題",
+      "type": "TEXT",
+      "helpText": "前回作った自分の GoogleSlidseに追加して、そのページのURLを記載します"
+    },
+    {
+      "id": 872590809,
+      "title": "[課題#2-2] GitHubアカウント",
+      "type": "TEXT",
+      "helpText": "GitHubのアカウントを作って、そのアカウントURLを伝えてください 例 https://github.com/kaitas"
+    },
+    {
+      "id": 84447514,
+      "title": "[課題#2-3] 資料URL",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "調査やエビデンスとなる資料（講義内で紹介したものでも可、論文や年代など、さらに深めて自分の仮説を固めていく調査）"
+    },
+    {
+      "id": 1365173915,
+      "title": "【課題#3】画像生成AIを用いて「Webポートフォリオを作る」",
+      "type": "PAGE_BREAK",
+      "helpText": "[12/12]第3回 Webポートフォリオの制作\n[12/19]第4回 クリエイティブAI\n[12/26]第5回 VTuberを設計する\n[1/9]  第6回 VTuberを発信する\n"
+    },
+    {
+      "id": 818944293,
+      "title": "課題3：締切は12/19 22時とします ",
+      "type": "SECTION_HEADER",
+      "helpText": "課題3-1：作品紹介\n自己紹介Webをつくる。画像とリンクを最低1つづつ入れる。\nGitHubのリポジトリと完成URL（xxxxx.github.io)のURLを報告\n"
+    },
+    {
+      "id": 1034266458,
+      "title": "課題3-1：作品紹介",
+      "type": "TEXT",
+      "helpText": "自己紹介WebポートフォリオのURLでお伝え下さい。 https://akihiko.shirai.as/DHGSVR/"
+    },
+    {
+      "id": 1307324624,
+      "title": "課題3-2：リポジトリURL",
+      "type": "TEXT",
+      "helpText": "https://github.com/kaitas/DHGSVR"
+    },
+    {
+      "id": 1685523968,
+      "title": "課題3-3：やってみた感想",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "大変だったこと、工夫したことなど。"
+    },
+    {
+      "id": 1813656934,
+      "title": "課題#4   VibeCoding: GitHubとコーディングエージェント",
+      "type": "PAGE_BREAK",
+      "helpText": "VibeCoding: GitHubとコーディングエージェント\n① Gemini, Codex, Claudeどれか1つと仲良くなる、特徴をレポート。\n「自分が一番気に入ったのはXXXです、理由は…」\n② 他の人の自己紹介サイトでいいなと思ったサイトを1つ投票\n③ AITuberKitのインストールとカスタマイズに挑戦!\n④ https://ch.aicu.jp/ FTUEと改善案を提案する\n⑤ [new year 2026] を準備し始める"
+    },
+    {
+      "id": 612811972,
+      "title": "[4-1]コーディングエージェントについて",
+      "type": "TEXT",
+      "helpText": "① Gemini, Codex, Claudeどれか1つと仲良くなる、特徴をレポート。\n「自分が一番気に入ったのはXXXです、理由は…」SlidesのレポートをしたページのURL"
+    },
+    {
+      "id": 504312126,
+      "title": "[4-2]他の受講者の評価",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "他の人の自己紹介サイトでいいなと思ったサイトを1つ投票",
+      "choices": [
+        "https://akihiko.shirai.as/DHGSVR/",
+        "https://c426.github.io/",
+        "https://sonobemasashi-web.github.io/github.io/",
+        "https://final-ke.github.io/",
+        "https://isa251.github.io",
+        "https://github.com/g241tg2054-png/g241tg2054.github.io",
+        "https://marinakawaguchi.com/",
+        "https://tofumisoshiru.github.io/DHGSVR/",
+        "https://lovpipit.github.io/",
+        "https://floriahimmel.github.io/4Q_Floria/",
+        "https://anine998.github.io",
+        "https://saia-ui.github.io/",
+        "https://siraha0611.github.io/kaso-katsumata.github.io/"
+      ]
+    },
+    {
+      "id": 852308869,
+      "title": "[4-3]AITuberKitのインストールとカスタマイズに挑戦",
+      "type": "TEXT",
+      "helpText": "リポジトリはこちら https://github.com/tegnike/aituber-kit 詳細はREADMEを読むこと。\n質問はSlackのテクノロジー特論Dのチャンネルへどうぞ（本家に聞くのはいったん内部Slackで聞いてから）"
+    },
+    {
+      "id": 673242524,
+      "title": "[4-4] https://ch.aicu.jp/ FTUEと改善案を提案する",
+      "type": "TEXT",
+      "helpText": "まだまだ更新中です。レビューした瞬間のUXでいいので、FTUE（最初の体験）を分析・改善視点でレポートしてください。メールアドレスを使って新規登録、クレジットカードの番号は 4242 4242 4242 4242 12/23 567 で通ります（12/23以降は有料になるかも）"
+    },
+    {
+      "id": 1294866546,
+      "title": "[4-5]  [new year 2026] を準備し始める",
+      "type": "TEXT",
+      "helpText": "ウェブポートフォリオ、年賀状、どのようなコンセプトでもいいので、メインのポートフォリオの下層に、 [new year 2026] を準備し始める。デプロイしたURLを報告。"
+    },
+    {
+      "id": 1268055101,
+      "title": "【課題#05】みなさんのNewYear自己紹介+AITuber講評会",
+      "type": "PAGE_BREAK",
+      "helpText": "①じぶんのNewYear URL(GitHub/Vercel/独自ドメイン...)\n②FTUEのためのガイドを1行でも（見て欲しいところ）\n③他の受講生のサイトで、気になったURLを紹介（早く出したほうが🉐？）\n④その理由\n⑤自分のVTuberを発信するSNS(YouTuber/TwitterのURL)見どころ録画..\n\n以下は昨年の課題（参考まで）\n[5-6]オプション[VTuberの設計をして、VRoid Hubで公開してみる]\n提出例　https://hub.vroid.com/characters/ で始まるURL\nhttps://hub.vroid.com/characters/4948959842983800378/models/1644203687491286746\nhttps://hub.vroid.com/characters/6644058140362763087/models/1622643019082941926\n時間のある方向け おすすめ予習作業\n・Google Slidesにキャラクター設計シート作成してみる\n・生成AIを使ってバリエーションを考えてみる\n・VRoidの表情からスクリーンショットを取って撮影する、生成AIのimage2imageにかけてみる\n・YouTubeチャンネルを整備してみる（個人のYouTubeに新規チャンネル作成で問題なし）"
+    },
+    {
+      "id": 1625329392,
+      "title": "[5-1] NewYear URL",
+      "type": "TEXT",
+      "helpText": "GitHub/Vercel/独自ドメイン..."
+    },
+    {
+      "id": 1589597678,
+      "title": "[5-2] FTUEのためのガイドを1行でも（見て欲しいところ）",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "FTUE: First Time User Experience を良くするためのガイドをお願いします\n例：「画面中央の文字をクリックして10秒待つと…ヘッドフォン使ってください」\n例：「あけましておめでとう」って入力してください"
+    },
+    {
+      "id": 1861160895,
+      "title": "[5-3]他の受講生のサイトで気になったURL",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "複数紹介可能 前々回のURL https://akihiko.shirai.as/DHGSVR/DHGSVR25/"
+    },
+    {
+      "id": 1112586361,
+      "title": "[5-4]その理由",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "上記のサイトで「いいな！」とおもったところをテキストで記載してください。\nたとえばXのアカウントがあれば本人に感想を返信で記載し、Xの短縮URLを取得するのもありです\n例： https://x.com/o_ob/status/1745514480338133471?s=20\nツイートの右下から「リンクをコピー」して、 https://x.com で始まるURLを提出\n…としましたが、今週はまだXのアカウントが揃っていないので、そこそこ難しいとおもいますので\nテキストでよしとします。"
+    },
+    {
+      "id": 1409151492,
+      "title": "[5-5]自分のVTuberを発信する",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "SNS(YouTuber/TwitterのURL) 見どころ録画のURLでもよい"
+    },
+    {
+      "id": 1245503833,
+      "title": "【課題#6】「VTuberを開発する」(2)",
+      "type": "PAGE_BREAK",
+      "helpText": "[6-1] VRoidHubでの公開URL\n[6-2]オリジナルVTuberの名前・プロフィール\n[6-3] キャラクターデザインコンセプトシート\n[6-4] VTuber 一問一答自己紹介\n[6-5] Twitter投稿\n[6-6] YouTubeチャンネルのURL\n[6-7] 作ってみた感想\n[6-8] 他受講生のNewYear作品の評価\n[6-9] NewYear The Best作品\n[6-10] 作品への感想をどうぞ"
+    },
+    {
+      "id": 405555170,
+      "title": "[6-1] VRoidHubでの公開URL",
+      "type": "TEXT",
+      "helpText": "VRoidHub上で公開設定し、そのページのURLを記載\n例\nhttps://hub.vroid.com/characters/1745666909408270450/models/1067607166826926838\nキャラクターの名前、どのようなエンゲージメントを行いたいかの設計を含めること\n"
+    },
+    {
+      "id": 1918110669,
+      "title": "[6-2]オリジナルVTuberの名前・プロフィール",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "VRoidHubで公開したキャラクターの名前と自己紹介\n\n例：ChefNinjya\n「ダンジョン飯」に出てきそうなシェフで忍者な「ChefNinjya」（チェフニンジャア）さんです。 「かたじけない！」「それって旨いのか？」 ”忍者”ではなく”チェフニンジャアさん”と呼ばない相手は暗殺します。能力は高いのですが「旨いかどうか」ですべての行動を判断します。"
+    },
+    {
+      "id": 249279426,
+      "title": "[6-3] キャラクターデザインコンセプトシート",
+      "type": "TEXT",
+      "helpText": ""
+    },
+    {
+      "id": 1880707482,
+      "title": "[6-4] VTuber 一問一答自己紹介",
+      "type": "TEXT",
+      "helpText": "YouTubeまで出来たひとはYouTubeのURL。設計までのひとはSlidesURL。"
+    },
+    {
+      "id": 825917381,
+      "title": "[6-5] Twitter投稿",
+      "type": "TEXT",
+      "helpText": "画像とともに投稿した「#新人VTuber」「#DHGSVR25」付きツイートURL"
+    },
+    {
+      "id": 1067444120,
+      "title": "[6-6] YouTubeチャンネルのURL",
+      "type": "TEXT",
+      "helpText": "準備しているYouTubeチャンネルのURL"
+    },
+    {
+      "id": 98734236,
+      "title": "[6-7] 作ってみた感想",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "今週で終了…ではないので「もう1週間あれば…何をしたいか」を書いておきましょう"
+    },
+    {
+      "id": 567630186,
+      "title": "[6-8] 他受講生のNewYear作品の評価",
+      "type": "CHECKBOX",
+      "helpText": "みたものをチェック",
+      "choices": [
+        "https://marinakawaguchi.com/newyear.html",
+        "https://isa251.github.io",
+        "https://c426.github.io/new%20year%202026/2026.html",
+        "https://finnapop.github.io/DHGSVR/newyear2026",
+        "https://anine998.github.io/998.github.io/newyear2026/",
+        "https://siraha0611.github.io/kaso-katsumata.github.io/newyear-2026.html",
+        "https://sonobemasashi-web.github.io/github.io/nengajo.html",
+        "https://lovpipit.github.io/2026new.html",
+        "https://uwuhhhj.github.io/Webpage/",
+        "https://final-ke.github.io/newyear2026.html",
+        "https://tofumisoshiru.github.io/DHGSVR/",
+        "https://floriahimmel.github.io/4Q_Floria/2026/newyear.html",
+        "https://glacial-mint-github-io.vercel.app/"
+      ]
+    },
+    {
+      "id": 2102360576,
+      "title": "[6-9] NewYear The Best作品",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "ベスト作品をチェック",
+      "choices": [
+        "https://marinakawaguchi.com/newyear.html",
+        "https://isa251.github.io",
+        "https://c426.github.io/new%20year%202026/2026.html",
+        "https://finnapop.github.io/DHGSVR/newyear2026",
+        "https://anine998.github.io/998.github.io/newyear2026/",
+        "https://siraha0611.github.io/kaso-katsumata.github.io/newyear-2026.html",
+        "https://sonobemasashi-web.github.io/github.io/nengajo.html",
+        "https://lovpipit.github.io/2026new.html",
+        "https://uwuhhhj.github.io/Webpage/",
+        "https://final-ke.github.io/newyear2026.html",
+        "https://tofumisoshiru.github.io/DHGSVR/",
+        "https://floriahimmel.github.io/4Q_Floria/2026/newyear.html",
+        "https://glacial-mint-github-io.vercel.app/"
+      ]
+    },
+    {
+      "id": 1769445616,
+      "title": "[6-10] 作品への感想をどうぞ",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": ""
+    },
+    {
+      "id": 2044934574,
+      "title": "【課題#7】VTuberをリリースする＆最終課題",
+      "type": "PAGE_BREAK",
+      "helpText": "[7-1] Xの他作品評価\n[7-2] ベスト作品の選出\n[7-3] ベスト作品へのコメント\n[7-4] あなたのVTuber 一問一答自己紹介 YouTubeURL\n[7-5] 上記の動画をTwitterで紹介するURL   動画投稿は140秒以下であることに注意 #DHGSVR24\n[7-6] 作品動画ファイルのDriveへのアップロード\nDHGSVR24-外部上映可能動画フォルダ\n[7-7] 最終課題pre「私にとっての\"人工現実\"、学ぶ前と学んだ後」\n今まで講義で学んだ人工現実の技術や、DOORを使ったワールド設計、\nVTuber設計、本日紹介した VOICEVOX や オープンソースのAITuber-Kitなど\n自分自身が持っているスキルをや興味を組み合わせて、\n「私にとっての\"人工現実\"、学ぶ前と学んだ後」を考えて自己紹介スライドの最初のほうのページに配置してURLをお伝えください。初回の自己紹介なども振り返るといいと思います。"
+    },
+    {
+      "id": 496054578,
+      "title": "みなさんのVTuber",
+      "type": "SECTION_HEADER",
+      "helpText": "[ソラ] https://x.com/dhgsg241tg2075/status/1881729856511352878\n[鴨居勇人] https://docs.google.com/presentation/d/1kFRqXngQSCX0KmY2m10o3-0FEr_43cdlHXH0MZvsBEg/edit?usp=sharing\n[ひとみ] https://x.com/zMl8MN4Ob275681/status/1882057188795093118\n[YOCAMii] https://x.com/kou2861497/status/1882045070452597109\n[灰崎レン] https://x.com/xijiwi1075511/status/1882066523063521486\n[夏之助] https://x.com/moz_zn/status/1882073920444211504\n[杜乃碧] https://x.com/haruyo_o/status/1882096989313351919\n[灰斗ライカ] https://x.com/haito_laika/status/1882777809606815948?s=46&t=1jzaNkv0wAPgJ0KwRXxUCg\n[AmyCraft] https://x.com/room_assignment/status/1882338908354298250\n[焔宮かなた] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19\n[Neutral] https://x.com/g241tg2030/status/1882637790430826716\n[深安(しあん)ねむり] https://x.com/room_assignment/status/1882338908354298250\n[Sylvia] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19\n[深安ねむり] https://x.com/WK_MC22/status/1882749155585798435\n[ムササビharuka] https://x.com/g241tg2030/status/1882637790430826716\n[BeniAloha] https://x.com/WK_MC22/status/1882749155585798435\n\n20250131追記 誤りがありました（修正が反映されていなかった）\n以下お詫びして訂正いたします\n講義までに頑張って、再集計できるようにしておきます！\n\n[杜乃碧] https://x.com/haruyo_o/status/1882096989313351919 → 正しくはAmyCraft\n[夏之助] https://x.com/moz_zn/status/1882073920444211504 →正しくは[杜の碧]\n[AmyCraft] https://x.com/room_assignment/status/1882338908354298250 →[深安(しあん)ねむり] \n[深安(しあん)ねむり] https://x.com/room_assignment/status/1882338908354298250（つまり2つあるので合算します）\n[Neutral] https://x.com/g241tg2030/status/1882637790430826716 → ムササビharuka \n[ムササビharuka] https://x.com/g241tg2030/status/1882637790430826716 (つまり2つあるので合算します)\n[焔宮かなた] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19 → Silvia\n[灰崎レン] https://x.com/xijiwi1075511/status/1882066523063521486 →夏之介\n[Sylvia] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19 ２つある\nNeutral さん すみません、リストにないです"
+    },
+    {
+      "id": 1405618150,
+      "title": "[7-1] Xの他作品評価",
+      "type": "CHECKBOX",
+      "helpText": "見たものにチェック（複数選択可能）",
+      "choices": [
+        "[ソラ] https://x.com/dhgsg241tg2075/status/1881729856511352878",
+        "[鴨居勇人] https://docs.google.com/presentation/d/1kFRqXngQSCX0KmY2m10o3-0FEr_43cdlHXH0MZvsBEg/edit?usp=sharing",
+        "[ひとみ] https://x.com/zMl8MN4Ob275681/status/1882057188795093118",
+        "[YOCAMii] https://x.com/kou2861497/status/1882045070452597109",
+        "[灰崎レン] https://x.com/xijiwi1075511/status/1882066523063521486",
+        "[夏之助] https://x.com/moz_zn/status/1882073920444211504",
+        "[杜乃碧] https://x.com/haruyo_o/status/1882096989313351919",
+        "[灰斗ライカ] https://x.com/haito_laika/status/1882777809606815948?s=46&t=1jzaNkv0wAPgJ0KwRXxUCg",
+        "[AmyCraft] https://x.com/room_assignment/status/1882338908354298250",
+        "[焔宮かなた] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19",
+        "[Neutral] https://x.com/g241tg2030/status/1882637790430826716",
+        "[深安(しあん)ねむり] https://x.com/room_assignment/status/1882338908354298250",
+        "[Sylvia] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19",
+        "[深安ねむり] https://x.com/room_assignment/status/1882338908354298250",
+        "[ムササビharuka] https://x.com/g241tg2030/status/1882637790430826716",
+        "[BeniAloha] https://x.com/WK_MC22/status/1882749155585798435"
+      ]
+    },
+    {
+      "id": 441833585,
+      "title": "[7-2] My best VTuber design",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "ベスト作品にチェック（1つだけ）",
+      "choices": [
+        "[ソラ] https://x.com/dhgsg241tg2075/status/1881729856511352878",
+        "[鴨居勇人] https://docs.google.com/presentation/d/1kFRqXngQSCX0KmY2m10o3-0FEr_43cdlHXH0MZvsBEg/edit?usp=sharing",
+        "[ひとみ] https://x.com/zMl8MN4Ob275681/status/1882057188795093118",
+        "[YOCAMii] https://x.com/kou2861497/status/1882045070452597109",
+        "[灰崎レン] https://x.com/xijiwi1075511/status/1882066523063521486",
+        "[夏之助] https://x.com/moz_zn/status/1882073920444211504",
+        "[杜乃碧] https://x.com/haruyo_o/status/1882096989313351919",
+        "[灰斗ライカ] https://x.com/haito_laika/status/1882777809606815948?s=46&t=1jzaNkv0wAPgJ0KwRXxUCg",
+        "[AmyCraft] https://x.com/room_assignment/status/1882338908354298250",
+        "[焔宮かなた] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19",
+        "[Neutral] https://x.com/g241tg2030/status/1882637790430826716",
+        "[深安(しあん)ねむり] https://x.com/room_assignment/status/1882338908354298250",
+        "[Sylvia] https://x.com/77_adastra/status/1882486447871275466?t=9txv9bDbOafOnsnQxNhFFA&s=19",
+        "[深安ねむり] https://x.com/room_assignment/status/1882338908354298250",
+        "[ムササビharuka] https://x.com/g241tg2030/status/1882637790430826716",
+        "[BeniAloha] https://x.com/WK_MC22/status/1882749155585798435"
+      ]
+    },
+    {
+      "id": 448301470,
+      "title": "[7-3] ベスト作品へのコメント",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": ""
+    },
+    {
+      "id": 1110619675,
+      "title": "[7-4] あなたのVTuber 一問一答自己紹介 YouTubeURL",
+      "type": "TEXT",
+      "helpText": "・YouTubeで設計したVTuberの自己紹介動画をリリースし、その動画のURLを報告する\n・[#VTuber一問一答自己紹介] もしくはオリジナルの動画を制作。\n・複数本作った場合はチャンネル紹介用動画。\n・受講生作品集としてプレイリストで公開します。2021年の例：https://www.youtube.com/playlist?list=PL5eOm6e7-l2xV9a5V5Ev1Ld1f0XNIJLvd\n・個人のアカウントと分離したい場合はYouTubeのサブチャンネル作成をするとよいです"
+    },
+    {
+      "id": 213189963,
+      "title": "[7-5] 上記の動画をTwitterで紹介するURL",
+      "type": "TEXT",
+      "helpText": "・(1投目)は動画、2投目にYouTubeへのURLに加えて140秒以下の動画かサムネイル画像を添えるとよいです（例）\n・「#DHGSVR24」をつけることを推奨しますが、隠蔽する目的があればつけなくてもよい"
+    },
+    {
+      "id": 2007580239,
+      "title": "[7-6] 作品動画ファイルのDriveへのアップロード",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "作品動画ファイルのDriveへのアップロード\n外部上映可能動画フォルダに、VTuberだけでなくいままでの課題（メタバースの録画）などでご紹介ください。\n1URLを1行で書いてください。たくさんアップロード歓迎です。\n"
+    },
+    {
+      "id": 1719290458,
+      "title": "[7-7] 最終課題pre「私にとっての人工現実、学ぶ前と学んだ後」",
+      "type": "TEXT",
+      "helpText": "今まで講義で学んだ人工現実の技術や、DOORを使ったワールド設計、\nVTuber設計、本日紹介した VOICEVOX や オープンソースのAITuber-Kitなど\n自分自身が持っているスキルをや興味を組み合わせて、\n「私にとっての\"人工現実\"、学ぶ前と学んだ後」を考えて自己紹介スライドの最初のほうのページに配置してURLをお伝えください。初回の自己紹介なども振り返るといいと思います。 "
+    },
+    {
+      "id": 1607468728,
+      "title": "【VTuber一問一答自己紹介】",
+      "type": "PAGE_BREAK",
+      "helpText": "VTuber一問一答自己紹介（最終）\n\nhttps://x.com/watarun_steam/status/1883833581522542605\n\nhttps://x.com/kou2861497/status/1882045070452597109\n\nhttps://x.com/dhgsg241tg2075/status/1884591050221556160\n\nhttps://x.com/xijiwi1075511/status/1884607297244303497\n\nhttps://x.com/g241tg2030/status/1884611867706073407\n\nhttps://x.com/room_assignment/status/1884481419113816499\n\nhttps://x.com/zMl8MN4Ob275681/status/1884627897962655986\n\nhttps://x.com/moz_zn/status/1884693474529992728\n\nhttps://x.com/ShunXiao5362/status/1884930959516266643\n\nhttps://x.com/WK_MC22/status/1884967813380714593\n\nhttps://x.com/haruyo_o/status/1884969755947508108\n\nhttps://x.com/g241tg2030/status/1884930618435437020\n\nhttps://x.com/sanikauwu/status/1884959505169158465?s=46&t=Zf5H1ru0siJR-vlt43znxQ\n\nhttps://x.com/phantom_IEXR/status/1885175096643641528\n\nhttps://x.com/il_en_oc/status/1885267751201325323?s=46&t=OX2jDm8h2LgVMU1uQeR_qw\n\nhttps://x.com/warotoki_427/status/1884622368997552182?s=46&t=1jzaNkv0wAPgJ0KwRXxUCg\n\nhttps://x.com/77_adastra/status/1885276986547069347\n\n\nhttps://www.youtube.com/shorts/xUFUkF1VXZI\nhttps://www.youtube.com/watch?v=Fggq4OHVGwE&t=19s\nhttps://www.youtube.com/channel/UCEyRJ93OPxtKmiI6orYQ-bw\nhttps://www.youtube.com/watch?v=55usnYxg-zw\nhttps://www.youtube.com/@%E6%98%8E%E6%97%A5%E8%A6%8B%E9%81%A5\nhttps://www.youtube.com/watch?v=DyPcPhHol8I\nhttps://www.youtube.com/channel/UCjuRHyaXSZYffKKe3sm0JfQ\nhttps://www.youtube.com/watch?v=IXwBAPTHWpo\nhttps://www.youtube.com/@%E7%81%B0%E5%B4%8E%E3%83%AC%E3%83%B3\nhttps://www.youtube.com/watch?v=A16rr1JXirs\nhttps://www.youtube.com/watch?v=FNrO4IzSgBs\nhttps://www.youtube.com/watch?v=0FCwZYOzfD0\nhttps://www.youtube.com/watch?v=ESHPxnHQgFw&t=5s\nhttps://www.youtube.com/watch?v=1-5A7Gl3t3M\nhttps://www.youtube.com/watch?v=_V4sM4mO-nE\nhttps://www.youtube.com/watch?v=V4L3YuhCUEY\nhttps://www.youtube.com/watch?v=m5zPGOEvqOE\n\nhttps://x.com/phantom_IEXR/status/1885175096643641528\nhttps://www.youtube.com/watch?v=ESHPxnHQgFw\n\n"
+    },
+    {
+      "id": 180932136,
+      "title": "他者のVTuber作品「一問一答自己紹介」に対する評価",
+      "type": "CHECKBOX",
+      "helpText": "Twitterアカウントを見に行ったらまずYouTubeまでチェック。見ていいね＆フォロー、購読する。",
+      "choices": [
+        "https://x.com/watarun_steam/status/1883833581522542605",
+        "https://x.com/kou2861497/status/1882045070452597109",
+        "https://x.com/dhgsg241tg2075/status/1884591050221556160",
+        "https://x.com/xijiwi1075511/status/1884607297244303497",
+        "https://x.com/g241tg2030/status/1884611867706073407",
+        "https://x.com/room_assignment/status/1884481419113816499",
+        "https://x.com/zMl8MN4Ob275681/status/1884627897962655986",
+        "https://x.com/moz_zn/status/1884693474529992728",
+        "https://x.com/ShunXiao5362/status/1884930959516266643",
+        "https://x.com/WK_MC22/status/1884967813380714593",
+        "https://x.com/haruyo_o/status/1884969755947508108",
+        "https://x.com/g241tg2030/status/1884930618435437020",
+        "https://x.com/sanikauwu/status/1884959505169158465?s=46&t=Zf5H1ru0siJR-vlt43znxQ",
+        "https://x.com/phantom_IEXR/status/1885175096643641528",
+        "https://x.com/il_en_oc/status/1885267751201325323?s=46&t=OX2jDm8h2LgVMU1uQeR_qw",
+        "https://x.com/warotoki_427/status/1884622368997552182?s=46&t=1jzaNkv0wAPgJ0KwRXxUCg",
+        "https://x.com/77_adastra/status/1885276986547069347"
+      ]
+    },
+    {
+      "id": 572634710,
+      "title": "自分が選ぶベスト「一問一答自己紹介」",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "ベスト作品を選択",
+      "choices": [
+        "https://x.com/watarun_steam/status/1883833581522542605",
+        "https://x.com/kou2861497/status/1882045070452597109",
+        "https://x.com/dhgsg241tg2075/status/1884591050221556160",
+        "https://x.com/xijiwi1075511/status/1884607297244303497",
+        "https://x.com/g241tg2030/status/1884611867706073407",
+        "https://x.com/room_assignment/status/1884481419113816499",
+        "https://x.com/zMl8MN4Ob275681/status/1884627897962655986",
+        "https://x.com/moz_zn/status/1884693474529992728",
+        "https://x.com/ShunXiao5362/status/1884930959516266643",
+        "https://x.com/WK_MC22/status/1884967813380714593",
+        "https://x.com/haruyo_o/status/1884969755947508108",
+        "https://x.com/g241tg2030/status/1884930618435437020",
+        "https://x.com/sanikauwu/status/1884959505169158465?s=46&t=Zf5H1ru0siJR-vlt43znxQ",
+        "https://x.com/phantom_IEXR/status/1885175096643641528",
+        "https://x.com/il_en_oc/status/1885267751201325323?s=46&t=OX2jDm8h2LgVMU1uQeR_qw",
+        "https://x.com/warotoki_427/status/1884622368997552182?s=46&t=1jzaNkv0wAPgJ0KwRXxUCg",
+        "https://x.com/77_adastra/status/1885276986547069347"
+      ]
+    },
+    {
+      "id": 1804843447,
+      "title": "【課題#8】まとめ「人工現実で未来を変える」",
+      "type": "PAGE_BREAK",
+      "helpText": "[8-1]メタバース年賀状のルームURL\nDOOR, Twitterでの紹介、いずれでも構いません。ただしSpokeのシーンファイルへのURLは低得点。\n[8-2] VTuber動画の製作及び発信\n  一問一答自己紹介YouTubeのURL、もしくは作品発信用TwitterつぶやきのURL\n\n[8-3]まとめ「人工現実で未来を変える」最終課題の提出URL\n「学ぶ前と学んだあと」を意識して、最低1枚にまとめたGoogle SlidesのURLを提出する\n\n[8-4]授業での貢献\n講義Slackでの他者の発言や作品で、興味を持った、勇気づけられた、インスパイアになったURLを紹介。\n（あまりにスコアがよろしくない人向けの加点要素作文です）\n\n[8-5](要素4)全ての講義回を通した本人の成長を表現\n作文で、「学ぶ前」と「学んだあと」を意識して書いてみるとよいです。\n参考：成績評価基準　5段階評価（S～D）\n（1）メタバース年賀状の制作および評価 30%\n（2）VTuber動画の製作及び発信 30%\n（3）最終課題の企画提案および発信 30% \n（4）授業への貢献(授業内容レポートの共有や受講者への知識・感想の展開) 10%\n\n★過去の提出からアップデートがあれば最新のURLを報告していただいて構いません\n"
+    },
+    {
+      "id": 460915640,
+      "title": "[8-1]メタバース年賀状のルームURL",
+      "type": "TEXT",
+      "helpText": "DOOR, Twitterでの紹介、いずれでも構いません。ただしSpokeのシーンファイルへのURLは低得点。"
+    },
+    {
+      "id": 773901427,
+      "title": "[8-2] VTuber動画の製作及び発信",
+      "type": "TEXT",
+      "helpText": "  一問一答自己紹介YouTubeのURL、もしくは作品発信用TwitterつぶやきのURL"
+    },
+    {
+      "id": 1977833489,
+      "title": "[8-3]まとめ「人工現実で未来を変える」最終課題の提出URL",
+      "type": "TEXT",
+      "helpText": "Google SlidesのURL"
+    },
+    {
+      "id": 708587489,
+      "title": "[8-4]授業での貢献",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "講義Slackでの他者の発言や作品で、興味を持った、勇気づけられた、インスパイアになったURLを紹介。\n（あまりにスコアがよろしくない人向けの加点要素作文です）"
+    },
+    {
+      "id": 23594505,
+      "title": "[8-5](要素4)全ての講義回を通した本人の成長を表現",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "作文で、「学ぶ前」と「学んだあと」を意識して書いてみるとよいです。"
+    },
+    {
+      "id": 60326023,
+      "title": "[8-6](アンケート)自己評価",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "この授業の自分を客観的に評価するとどんな成績になりそうですか？\n*成績評価とは直接関係ありません",
+      "choices": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 1900341488,
+      "title": "[8-7](アンケート)上記で提出した作品について、出版（白井の論文・書籍、ブログ等）で紹介してもよろしいでしょうか？",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "*成績評価とは直接関係ありません",
+      "choices": [
+        "白井の出版等で紹介することを許可する",
+        "要相談",
+        "許可しない"
+      ]
+    },
+    {
+      "id": 747076603,
+      "title": "送信確認",
+      "type": "PAGE_BREAK",
+      "helpText": "Feedback Sheetと同じ内容で構いません。Slackに共有される項目があります。"
+    },
+    {
+      "id": 1659752142,
+      "title": "【授業満足度】",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "本日の授業の満足度はどのくらいですか？",
+      "choices": [
+        "とても満足",
+        "満足",
+        "普通",
+        "やや不満",
+        "不満"
+      ]
+    },
+    {
+      "id": 235398143,
+      "title": "【自己評価】",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "本日の授業への取り組みはどうでしたか？",
+      "choices": [
+        "積極的に取り組めた",
+        "一部、反省すべき点があった",
+        "消極的だった"
+      ]
+    },
+    {
+      "id": 1205116543,
+      "title": "Slack公開希望",
+      "type": "MULTIPLE_CHOICE",
+      "helpText": "公開するとSlack内に共有され、毎回の授業参加スコアになります。",
+      "choices": [
+        "Slides/名前公開します",
+        "公開を希望しない",
+        "(全体を)Slack投稿しない"
+      ]
+    },
+    {
+      "id": 576824378,
+      "title": "本日の授業について①",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "[Slackに共有されます]印象に残っている内容、キーワードはなんですか？"
+    },
+    {
+      "id": 1795674527,
+      "title": "本日の授業について②感想",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "[Slackに共有されます]（良かった点、悪かった点）"
+    },
+    {
+      "id": 1583212063,
+      "title": "コメント",
+      "type": "PARAGRAPH_TEXT",
+      "helpText": "[Slackに共有されます]さいごに何か補足連絡事項があればどうぞ。宣伝や紹介などURLも歓迎です。"
+    },
+    {
+      "id": 12732715,
+      "title": "SlidesURL",
+      "type": "TEXT",
+      "helpText": "自己紹介スライドのURLを貼り付けてください。先頭に新しいスライドが来ることを推奨します(新→旧)。\n★課題の中で同じURLを入力することがありますが気にせず再掲お願いいたします。"
+    },
+    {
+      "id": 1736376097,
+      "title": "非公開の連絡事項",
+      "type": "TEXT",
+      "helpText": "こちらは公開されない連絡事項です"
+    }
+  ]
+}
