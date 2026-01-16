@@ -94,6 +94,11 @@ function doGet(e) {
         }
         return jsonResponse(syllabusData);
 
+      case 'updateSyllabus26':
+        // シラバス26を更新
+        const updateResult = updateSyllabus26Api();
+        return jsonResponse(updateResult);
+
       case 'forms':
         // リンクされているフォーム一覧
         return jsonResponse(getLinkedFormsApi());
@@ -809,48 +814,62 @@ function testFormSubmit() {
 // ========================================
 
 /**
- * シラバス26を更新する
- * GASエディタから手動実行
+ * シラバス26の更新データ
  */
-function updateSyllabus26() {
-  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
-  const sheet = ss.getSheetByName('シラバス26');
+const SYLLABUS26_DATA = {
+  '授業概要': '「人工現実」とは頭の中にある現実を人工的に作り出す能力である。本講義ではAR/VR/メタバースや生成AIの技術史を俯瞰した上で、コーディングエージェントを活用したインタラクティブコンテンツ制作、アバターを使った動画制作と発信を実践する。毎週の課題を通して想像を実装し社会に共有する力を習得する。',
 
-  if (!sheet) {
-    console.error('シラバス26シートが見つかりません');
-    return;
-  }
+  '成績評価方法と基準': '5段階評価（S〜D）\n単位取得の前提条件：毎回の課題をすべて提出していること。\n（1）最終レポート：技術史理解と社会実装への考察（30%）\n（2）アバター動画制作および発信（30%）\n（3）インタラクティブコンテンツの制作とデプロイ（30%）\n（4）授業への貢献：発言、相互評価、知識共有（10%）',
 
-  // 更新データ
-  const updates = {
-    '授業概要': '「人工現実」とは頭の中にある現実を人工的に作り出す能力である。本講義ではAR/VR/メタバースや生成AIの技術史を俯瞰した上で、コーディングエージェントを活用したインタラクティブコンテンツ制作、アバターを使った動画制作と発信を実践する。毎週の課題を通して想像を実装し社会に共有する力を習得する。',
+  '履修条件と留意事項': '本講義は演習としてSNSやクラウドサービスをアカウント作成から行い、双方向コミュニケーションおよび発信活動を行う。これらの通信環境や利用規約に同意できない場合は本講義の履修を断念するか、代替手段を担当教員に事前提案の上履修すること。',
 
-    '成績評価方法と基準': '5段階評価（S〜D）\n単位取得の前提条件：毎回の課題をすべて提出していること。\n（1）最終レポート：技術史理解と社会実装への考察（30%）\n（2）アバター動画制作および発信（30%）\n（3）インタラクティブコンテンツの制作とデプロイ（30%）\n（4）授業への貢献：発言、相互評価、知識共有（10%）',
+  '教科書': 'なし',
 
-    '履修条件と留意事項': '本講義は演習としてSNSやクラウドサービスをアカウント作成から行い、双方向コミュニケーションおよび発信活動を行う。これらの通信環境や利用規約に同意できない場合は本講義の履修を断念するか、代替手段を担当教員に事前提案の上履修すること。',
+  '参考文献': 'AIとコラボして神絵師になる 論文から読み解くStable Diffusion／白井暁彦／インプレスR&D／ISBN：978-4295601388\nバーチャルリアリティ学／日本バーチャルリアリティ学会編／コロナ社／ISBN：978-4904490051'
+};
 
-    '教科書': 'なし',
+/**
+ * シラバス26を更新する（API用）
+ */
+function updateSyllabus26Api() {
+  try {
+    const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+    const sheet = ss.getSheetByName('シラバス26');
 
-    '参考文献': 'AIとコラボして神絵師になる 論文から読み解くStable Diffusion／白井暁彦／インプレスR&D／ISBN：978-4295601388\nバーチャルリアリティ学／日本バーチャルリアリティ学会編／コロナ社／ISBN：978-4904490051'
-  };
+    if (!sheet) {
+      return { success: false, error: 'シラバス26シートが見つかりません' };
+    }
 
-  // B列の全データを取得
-  const lastRow = sheet.getLastRow();
-  const bColumn = sheet.getRange('B1:B' + lastRow).getValues();
+    const lastRow = sheet.getLastRow();
+    const bColumn = sheet.getRange('B1:B' + lastRow).getValues();
+    const updated = [];
 
-  // 各項目を更新
-  for (const [fieldName, value] of Object.entries(updates)) {
-    for (let i = 0; i < bColumn.length; i++) {
-      if (bColumn[i][0] === fieldName) {
-        const row = i + 1;
-        sheet.getRange(row, 3).setValue(value); // C列に書き込み
-        console.log(`更新: ${fieldName} (行${row})`);
-        break;
+    for (const [fieldName, value] of Object.entries(SYLLABUS26_DATA)) {
+      for (let i = 0; i < bColumn.length; i++) {
+        if (bColumn[i][0] === fieldName) {
+          sheet.getRange(i + 1, 3).setValue(value);
+          updated.push({ field: fieldName, row: i + 1 });
+          break;
+        }
       }
     }
-  }
 
-  console.log('シラバス26の更新が完了しました');
+    return {
+      success: true,
+      message: 'シラバス26を更新しました',
+      updated: updated
+    };
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
+}
+
+/**
+ * シラバス26を更新する（手動実行用）
+ */
+function updateSyllabus26() {
+  const result = updateSyllabus26Api();
+  console.log(JSON.stringify(result, null, 2));
 }
 
 /**
