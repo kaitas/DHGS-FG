@@ -1,0 +1,12 @@
+# clasp credentials (contains script ID)
+.clasp.json
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
