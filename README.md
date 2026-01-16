@@ -183,11 +183,35 @@ curl -sL --get "https://script.google.com/macros/s/.../exec" \
 DHGS-FG/
 ├── Code.js           # メインGASスクリプト
 ├── appsscript.json   # GASマニフェスト
+├── Form2Json.py      # フォーム構造バックアップツール
+├── forms/            # フォーム構造のJSONバックアップ
 ├── .clasp.json       # clasp設定（.gitignore対象）
 ├── .gitignore
 ├── README.md
 └── AGENTS.md         # AIエージェント向けガイド
 ```
+
+## ツール
+
+### Form2Json.py
+
+Google Formの構造をJSON形式で保存するPythonスクリプト。
+
+```bash
+# 今日の日付でバックアップ
+python3 Form2Json.py
+
+# 日付を指定
+python3 Form2Json.py --date 250116
+
+# リンクされているフォーム一覧
+python3 Form2Json.py --list
+
+# 別のフォームを指定
+python3 Form2Json.py --form-id FORM_ID
+```
+
+保存先: `forms/DHGSVR{日付}.json`
 
 ## 参考文献
 
